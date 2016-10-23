@@ -4,13 +4,13 @@ import javasmmr.zoowsome.models.animals.*;
 
 public class BirdFactory extends SpeciesFactory{
 	public Animals getAnimal(String type)throws Exception{
-		if(Constants.Animals.Birds.Penguin.equals(type)){
+		if(Constants.Animal.Birds.Penguin.equals(type)){
 			return new Penguin();
 		}
-		else if(Constants.Animals.Birds.Vulture.equals(type)){
+		else if(Constants.Animal.Birds.Vulture.equals(type)){
 			return new Vulture();
 		}
-		else if(Constants.Animals.Birds.Parrot.equals(type)){
+		else if(Constants.Animal.Birds.Parrot.equals(type)){
 			return new Parrot();
 			}
 		

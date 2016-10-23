@@ -4,13 +4,13 @@ import javasmmr.zoowsome.models.animals.*;
 public class AquaticFactory extends SpeciesFactory{
 	@Override
 	public Animals getAnimal(String type)throws Exception{
-		if(Constants.Animals.Aquatics.Whale.equals(type)){
+		if(Constants.Animal.Aquatics.Whale.equals(type)){
 			return new Whale();
 		}
-		else if(Constants.Animals.Aquatics.Dolphin.equals(type)){
+		else if(Constants.Animal.Aquatics.Dolphin.equals(type)){
 			return new Dolphin();
 		}
-		else if(Constants.Animals.Aquatics.Seal.equals(type)){
+		else if(Constants.Animal.Aquatics.Seal.equals(type)){
 			return new Seal();
 			}
 		

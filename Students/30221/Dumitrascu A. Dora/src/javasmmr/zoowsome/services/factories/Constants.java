@@ -8,7 +8,7 @@ public final class Constants{
 		public static final String Aquatic = "Aquatic";
 		public static final String Insect = "Insect";
 	}
-	public static final class Animals {
+	public static final class Animal {
 		public static final class Mammal {
 		public static final String Cow = "COW";
 		public static final String Monkey = "MONKEY";
