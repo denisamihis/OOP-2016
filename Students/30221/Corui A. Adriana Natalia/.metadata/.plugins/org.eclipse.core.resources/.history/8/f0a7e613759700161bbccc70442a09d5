@@ -1,0 +1,11 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Butterfly extends Insect{
+
+	public Butterfly(int nr,String name)
+	{
+		super.setNrOfLegs(nr);
+		super.setName(name);
+		
+	}
+}

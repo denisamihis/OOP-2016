@@ -1,0 +1,10 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Tiger extends Mammal{
+
+	public Tiger(String name)
+	{
+		super.setNrOfLegs(4);
+		super.setName(name);	
+	}
+}

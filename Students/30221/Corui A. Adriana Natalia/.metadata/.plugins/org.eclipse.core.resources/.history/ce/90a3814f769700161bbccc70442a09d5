@@ -1,0 +1,10 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Crocodile extends Reptile{
+
+	public Crocodile(String name)
+	{
+		super.setNrOfLegs(4);
+		super.setName(name);	
+	}
+}

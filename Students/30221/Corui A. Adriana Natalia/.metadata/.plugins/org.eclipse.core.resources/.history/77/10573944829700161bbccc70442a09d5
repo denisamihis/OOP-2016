@@ -1,0 +1,13 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Dolphin extends Aquatic{
+	
+	public Dolphin(String name)
+	{
+		super.setNrOfLegs(0);
+		super.setAvgSwimDepth(20);
+		super.setWaterType(WaterType.saltwater);
+		super.setName(name);	
+	}
+	
+}

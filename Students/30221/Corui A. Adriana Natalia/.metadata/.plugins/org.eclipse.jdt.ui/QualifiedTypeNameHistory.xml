@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Dolphin"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Tiger"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Cow"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Monkey"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Duck"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Owl"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Pigeon"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Butterfly"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Cockroach"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Spider"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Turtle"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Snake"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Crocodile"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Jellyfish"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Shark"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.services.factories.AnimalFactory"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.services.factories.SpeciesFactory"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.services.factories.Constants"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.services.factories.Constants.Species"/>
+<fullyQualifiedTypeName name="javasmmr.zoowsome.models.animals.Animal"/>
+</qualifiedTypeNameHistroy>

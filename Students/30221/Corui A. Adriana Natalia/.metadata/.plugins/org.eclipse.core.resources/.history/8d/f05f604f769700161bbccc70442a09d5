@@ -1,0 +1,10 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Spider extends Insect {
+
+	public Spider(String name)
+	{
+		super.setNrOfLegs(8);
+		super.setName(name);	
+	}
+}
