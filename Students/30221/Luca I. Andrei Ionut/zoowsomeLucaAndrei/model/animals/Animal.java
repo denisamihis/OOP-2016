@@ -1,7 +1,7 @@
 package animals;
 
 public abstract class Animal {
-	private int nrOfLegs;
+	private Integer nrOfLegs;
 	private String name;
 
 	public Integer getNrOfLegs() {
