@@ -1,10 +1,10 @@
 package models.animlas;
 
 public class Eagle extends Bird {
-	public Eagle( String name, int age){
-		super(false,(float)1800 ,"Haliaeetus", name, age);
+	public Eagle( String name){
+		super(false,(float)1800, name, 2);
 	}
 	public Eagle ( ){
-		super(false,(float)1800 ," Haliaeetus", "Unknown", 0);
+		super(false,(float)1800 , "Unknown", 2);
 	}
 }

@@ -1,22 +1,15 @@
 package models.animlas;
 
 public abstract class Animal {
-	protected String scientificName;
 	protected String name;
-	protected int age;
-	public Animal(String scientificName, String name, int age) {
-		this.scientificName = scientificName;
+	protected int nrOfLegs;
+	public Animal(String name, int nrOfLegs) {
+
 		this.name = name;
-		this.age = age;
+		this.nrOfLegs=nrOfLegs;
+		
 	}
-	public String getSN()
-	{
-		return scientificName;
-	}
-	public void setSN( String scientificName)
-	{
-		this.scientificName = scientificName;
-	}
+
 	public String getName()
 	{
 		return name;
@@ -25,12 +18,12 @@ public abstract class Animal {
 	{
 		this.name=name;
 	}
-	public int getAge()
+	public int getNrOfLegs()
 	{
-		return age;
+		return nrOfLegs;
 	}
-	public void setAge(int age)
+	public void setNrOfLegs(int nrOfLegs)
 	{
-		this.age=age;
+		this.nrOfLegs=nrOfLegs;
 	}
 }

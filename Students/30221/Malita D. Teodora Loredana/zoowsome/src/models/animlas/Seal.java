@@ -2,11 +2,11 @@ package models.animlas;
 
 
 public class Seal extends Aquatic {
-	public Seal (String name, int age){
-		super(-20,wT.saltWater,"Phocidae", name, age);
+	public Seal (String name){
+		super(-20,wT.saltWater, name, 2);
 	}
 	public Seal (){
-		super(-20,wT.saltWater,"Phocidae", "Unknown", 0);
+		super(-20,wT.saltWater, "Unknown", 2);
 	}
 
 }

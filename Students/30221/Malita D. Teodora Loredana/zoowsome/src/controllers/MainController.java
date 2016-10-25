@@ -14,9 +14,9 @@ public class MainController {
 		AnimalFactory abstractFactory = new AnimalFactory();
 		SpeciesFactory mammalFactory = abstractFactory.getSpeciesFactory(Constants.Species.Mammals);
 		Animal dog =mammalFactory.getAnimal(Constants.Animals.Mammals.Dog);
-		System.out.printf("First animal with the scientific name: %s \n",dog.getSN());
+		System.out.printf("First animal is: %s \n",dog.getClass());
 		Animal cat = mammalFactory.getAnimal(Constants.Animals.Mammals.Cat);
-		System.out.printf("Second mammal animal with the scientific name: %s \n",cat.getSN());
+		System.out.printf("Second mammal animal with the %d nr of legs \n",cat.getNrOfLegs());
 		SpeciesFactory insectFactory = abstractFactory.getSpeciesFactory(Constants.Species.Insects);
 		Butterfly butterfly = (Butterfly) insectFactory.getAnimal(Constants.Animals.Insects.Butterfly);
 		System.out.printf("First insect is beutiful? %b \n",butterfly.getBeautiful());
@@ -25,10 +25,10 @@ public class MainController {
 		System.out.printf("The first reptile is ugly? %b\n", snake.getisUgly());
 		SpeciesFactory birdFactory = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
 		Animal eagle = birdFactory.getAnimal(Constants.Animals.Birds.Eagle);
-		System.out.printf("Scientific name of the eagle is: %s  \n", eagle.getSN());
+		System.out.printf("The next animal has %d  legs \n", eagle.getNrOfLegs());
 		SpeciesFactory aquaticFactory = abstractFactory.getSpeciesFactory(Constants.Species.Aquatics);
 		Animal seal  = aquaticFactory.getAnimal(Constants.Animals.Aquatics.Seal);
-		System.out.printf("The scientific name of the seal is : %s \n", seal.getSN());
+		System.out.printf("Next animal is : %s \n", seal.getClass());
 		
 		}
 

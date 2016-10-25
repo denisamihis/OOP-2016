@@ -2,9 +2,10 @@ package models.animlas;
 
 public abstract class Reptile extends Animal {
 	protected boolean isUgly;
-	public Reptile(boolean isUgly,String scientificName, String name, int age)
+	protected boolean laysEggs;
+	public Reptile(boolean isUgly, String name, int nrOfLegs,boolean laysEggs)
 	{
-		super(scientificName,name,age);
+		super(name,nrOfLegs);
 		this.isUgly = isUgly;
 	}
 	public boolean getisUgly()
@@ -14,6 +15,14 @@ public abstract class Reptile extends Animal {
 	public void setisUgly( boolean isUgly)
 	{
 		this.isUgly=isUgly;
+	}
+	public boolean getLaysEggs()
+	{
+		return laysEggs;
+	}
+	public void setLaysEggs( boolean laysEggs)
+	{
+		this.laysEggs=laysEggs;
 	}
 	
 

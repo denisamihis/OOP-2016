@@ -2,13 +2,13 @@ package models.animlas;
 
 public class Tiger extends Mammal{
 	private String race;
-	public Tiger(String name, int age, String race){
-		super((float)37.5, true,"Panthera tigris",name,age);
+	public Tiger(String name, String race){
+		super((float)37.5, true,name,4);
 		this.race=race;
 	}
 	public Tiger()
 	{
-		super((float)37.5,false,"Felis catus","Unknown",0);
+		super((float)37.5,false,"Unknown",4);
 		this.race="Unknown";
 	}
 	public String getRace()

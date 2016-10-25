@@ -4,9 +4,9 @@ public abstract class Aquatic extends Animal{
 	protected int avgSwimDepth;
 	enum wT{saltWater, freshWater};
 	protected wT waterType;
-	public Aquatic(int avgSwimDepth,wT waterType,String scientificName, String name, int age)
+	public Aquatic(int avgSwimDepth,wT waterType, String name, int nrOfLegs)
 	{
-		super(scientificName, name, age);
+		super( name, nrOfLegs);
 		this.avgSwimDepth=avgSwimDepth;
 		this.waterType=waterType;	
 	}

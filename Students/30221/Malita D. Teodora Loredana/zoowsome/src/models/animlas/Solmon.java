@@ -1,11 +1,11 @@
 package models.animlas;
 
 public class Solmon extends Aquatic {
-	public Solmon (String name, int age){
-		super(-13,wT.saltWater,"Oncorhynchus gorbuscha", name, age);
+	public Solmon (String name){
+		super(-13,wT.saltWater, name,0);
 	}
 	public Solmon (){
-		super(-13,wT.saltWater,"Oncorhynchus gorbuscha", "Unknown", 0);
+		super(-13,wT.saltWater, "Unknown", 0);
 	}
 
 }

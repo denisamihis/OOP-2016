@@ -2,12 +2,12 @@ package models.animlas;
 
 public class Butterfly extends Insect {
 	private boolean beautiful;
-	public Butterfly (String name, int age, boolean beautiful){
-		super(" Rhopalocera", name, age, true ,false);
+	public Butterfly (String name,  boolean beautiful){
+		super(name, 8, true ,false);
 		this.beautiful=beautiful;
 	}
 	public Butterfly (){
-		super("Rhopalocera", "Unknown", 0, false ,true);
+		super( "Unknown", 8, true ,false);
 		this.beautiful=true;
 	}
 	public boolean getBeautiful()
