@@ -3,9 +3,9 @@ package models.animals;
 public abstract class Mammal extends Animal{
 	protected float normalBodyTemp;
 	protected float percBodyHair;
-	public Mammal(double normalBodyTemp,double percBodyHair,String name)
+	public Mammal(double normalBodyTemp,double percBodyHair,String name, int nrOfLegs, double maintenanceCost, double dangerPerc)
 	{
-		super(name);
+		super(name, nrOfLegs, maintenanceCost, dangerPerc);
 		this.normalBodyTemp = (float)normalBodyTemp;
 		this.percBodyHair = (float)percBodyHair;
 	}

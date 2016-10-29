@@ -3,9 +3,9 @@ package models.animals;
 public abstract class Insect extends Animal{
 	protected boolean canFly;
 	protected boolean isDangerous;
-	public Insect(boolean canFly, boolean isDangerous, String name)
+	public Insect(boolean canFly, boolean isDangerous, String name, int nrOfLegs, double maintenanceCost, double dangerPerc)
 	{
-		super(name);
+		super(name, nrOfLegs, maintenanceCost, dangerPerc);
 		this.canFly = canFly;
 		this.isDangerous = isDangerous;
 	}

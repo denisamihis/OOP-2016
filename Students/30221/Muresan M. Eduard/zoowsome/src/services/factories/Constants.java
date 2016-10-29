@@ -1,6 +1,15 @@
 package services.factories;
 
 public final class Constants {
+	public static final class Employees{
+		public static final String Caretaker = "Caretaker";
+		public static final class Caretakers
+		{
+			public static final String TCO_SUCCES = "SUCCESS";
+			public static final String TCO_KILLED = "KILLED";
+			public static final String TCO_NO_TIME = "NO_TIME";
+		}
+	}
 	public static final class Species {
 		public static final String Mammals = "Mammals";
 		public static final String Reptiles = "Reptiles";

@@ -2,9 +2,9 @@ package models.animals;
 
 public abstract class Reptile extends Animal{
 	protected boolean laysEggs;
-	public Reptile(boolean laysEggs, String name)
+	public Reptile(boolean laysEggs, String name, int nrOfLegs, double maintenanceCost, double dangerPerc)
 	{
-		super(name);
+		super(name, nrOfLegs, maintenanceCost, dangerPerc);
 		this.laysEggs = laysEggs;
 	}
 	public boolean getLaysEggs()
