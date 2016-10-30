@@ -3,7 +3,9 @@ package models.animals;
 public abstract class Mammal extends Animal{
 	private double normalBodyTemp;
 	private double percBodyHair;
-	
+	protected Mammal(Double maintenanceCost , Double dangerPerc) {
+		super(maintenanceCost , dangerPerc);
+	}
 	public double getNormalBodyTemp(){
 		return normalBodyTemp;
 	}
