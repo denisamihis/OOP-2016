@@ -11,13 +11,13 @@ public class AquaticFactory extends SpeciesFactory{
 	{
 		
 			if(Constants.Animals.Aquatics.Dolphin.equals(type))
-				return new Dolphin();
+				return new Dolphin(0.1,0.1);
 			else
 				if(Constants.Animals.Aquatics.Jellyfish.equals(type))
-					return new Jellyfish();
+					return new Jellyfish(0.2,0.1);
 				else
 					if(Constants.Animals.Aquatics.Shark.equals(type))
-						return new Shark();
+						return new Shark(0.1,0.1);
 		
 			throw new Exception("Invalid animal provided.");
 				

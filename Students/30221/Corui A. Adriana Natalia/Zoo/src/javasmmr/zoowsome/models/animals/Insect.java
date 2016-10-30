@@ -2,6 +2,10 @@ package javasmmr.zoowsome.models.animals;
 
 public class Insect extends Animal {
 
+	public Insect(double maintCosts,double precDanger) {
+		super(maintCosts,precDanger);
+		// TODO Auto-generated constructor stub
+	}
 	private boolean canFly;
 	private boolean isDangerous;
 	public boolean getFlyAbility()

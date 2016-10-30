@@ -10,13 +10,13 @@ import javasmmr.zoowsome.models.animals.Turtle;
 		public Animal getAnimal(String type) throws Exception
 		{
 			if(Constants.Animals.Reptiles.Crocodile.equals(type))
-				return new Crocodile();
+				return new Crocodile(5.4,0.7);
 			else
 				if(Constants.Animals.Reptiles.Snake.equals(type))
-					return new Snake();
+					return new Snake(4.2,0.6);
 				else
 					if(Constants.Animals.Reptiles.Turtle.equals(type))
-						return new Turtle();
+						return new Turtle(3.9,0.1);
 					else
 						System.out.println("Invalid animal exception");
 			throw new Exception("Invalid animal provided.");

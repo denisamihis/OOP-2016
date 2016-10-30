@@ -10,13 +10,13 @@ public class InsectFactory extends SpeciesFactory{
 	public Animal getAnimal(String type) throws Exception
 	{
 		if(Constants.Animals.Insects.Butterfly.equals(type))
-			return new Butterfly();
+			return new Butterfly(0.3,0.1);
 		else
 			if(Constants.Animals.Insects.Cockroach.equals(type))
-				return new Cockroach();
+				return new Cockroach(0.1,0.6);
 			else
 				if(Constants.Animals.Insects.Spider.equals(type))
-					return new Spider();
+					return new Spider(0.7,0.9);
 				else
 					System.out.println("Invalid animal exception");
 		throw new Exception("Invalid animal provided.");
