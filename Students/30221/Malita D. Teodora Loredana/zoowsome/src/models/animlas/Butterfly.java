@@ -3,11 +3,11 @@ package models.animlas;
 public class Butterfly extends Insect {
 	private boolean beautiful;
 	public Butterfly (String name,  boolean beautiful){
-		super(name, 8, true ,false);
+		super(name, 8, true ,false,2.0,0.2);
 		this.beautiful=beautiful;
 	}
 	public Butterfly (){
-		super( "Unknown", 8, true ,false);
+		super( "Unknown", 8, true ,false,2.0,0.2);
 		this.beautiful=true;
 	}
 	public boolean getBeautiful()

@@ -1,35 +1,132 @@
 package controllers;
 
+import java.util.Random;
+
 import models.animlas.*;
 import models.animlas.Butterfly;
 import models.animlas.Insect;
-import services.factories.AnimalFactory;
-import services.factories.Constants;
-import services.factories.InvalidSpeciesException;
-import services.factories.SpeciesFactory;
+import models.employees.Caretaker;
+import services.factories.animalFactory.AnimalFactory;
+import services.factories.animalFactory.Constants;
+import services.factories.animalFactory.InvalidSpeciesException;
+import services.factories.animalFactory.SpeciesFactory;
+import services.factories.employeeFactory.*;
 
 public class MainController {
 
 	public static void main(String[] args) throws InvalidSpeciesException {
 		AnimalFactory abstractFactory = new AnimalFactory();
 		SpeciesFactory mammalFactory = abstractFactory.getSpeciesFactory(Constants.Species.Mammals);
-		Animal dog =mammalFactory.getAnimal(Constants.Animals.Mammals.Dog);
-		System.out.printf("First animal is: %s \n",dog.getClass());
-		Animal cat = mammalFactory.getAnimal(Constants.Animals.Mammals.Cat);
-		System.out.printf("Second mammal animal with the %d nr of legs \n",cat.getNrOfLegs());
-		SpeciesFactory insectFactory = abstractFactory.getSpeciesFactory(Constants.Species.Insects);
-		Butterfly butterfly = (Butterfly) insectFactory.getAnimal(Constants.Animals.Insects.Butterfly);
-		System.out.printf("First insect is beutiful? %b \n",butterfly.getBeautiful());
+		SpeciesFactory birdsFactory = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
 		SpeciesFactory reptileFactory = abstractFactory.getSpeciesFactory(Constants.Species.Reptiles);
-		Reptile snake = (Reptile)reptileFactory.getAnimal(Constants.Animals.Reptiles.Snake);
-		System.out.printf("The first reptile is ugly? %b\n", snake.getisUgly());
-		SpeciesFactory birdFactory = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
-		Animal eagle = birdFactory.getAnimal(Constants.Animals.Birds.Eagle);
-		System.out.printf("The next animal has %d  legs \n", eagle.getNrOfLegs());
+		SpeciesFactory insectsFactory = abstractFactory.getSpeciesFactory(Constants.Species.Insects);
 		SpeciesFactory aquaticFactory = abstractFactory.getSpeciesFactory(Constants.Species.Aquatics);
-		Animal seal  = aquaticFactory.getAnimal(Constants.Animals.Aquatics.Seal);
-		System.out.printf("Next animal is : %s \n", seal.getClass());
-		
+		Animal [] zoo=new Animal[50];
+		Random rosu = new Random();
+		int counter;
+		for(counter=0;counter<50;counter++)
+		{
+			switch(rosu.nextInt(5))
+			{
+			case 0 :
+				switch (rosu.nextInt(3))
+				{
+				case 0 :
+					zoo[counter]=mammalFactory.getAnimal(Constants.Animals.Mammals.Cat);
+					break;
+				case 1 :
+					zoo[counter]=mammalFactory.getAnimal(Constants.Animals.Mammals.Dog);
+					break;
+				default : 
+					zoo[counter]=mammalFactory.getAnimal(Constants.Animals.Mammals.Tiger);
+				}
+				break;
+			case 1 :
+				switch(rosu.nextInt(3))
+				{
+				case 0 :
+					zoo[counter]=birdsFactory.getAnimal(Constants.Animals.Birds.Dove);
+					break;
+				case 1 :
+					zoo[counter]=birdsFactory.getAnimal(Constants.Animals.Birds.Eagle);
+					break;
+				default :
+					zoo[counter]=birdsFactory.getAnimal(Constants.Animals.Birds.Flamingo);
+				}
+				break;
+			case 2 :
+				switch(rosu.nextInt(3))
+				{
+				case 0 :
+					zoo[counter]=reptileFactory.getAnimal(Constants.Animals.Reptiles.Chamameleon);
+					break;
+				case 1: 
+					zoo[counter]=reptileFactory.getAnimal(Constants.Animals.Reptiles.Crocodile);
+					break;
+				default :
+					zoo[counter]=reptileFactory.getAnimal(Constants.Animals.Reptiles.Snake);			
+				}
+				break;
+			case 3 :
+				switch(rosu.nextInt(3))
+				{
+				case 0 :
+					zoo[counter]=insectsFactory.getAnimal(Constants.Animals.Insects.Butterfly);
+					break;
+				case 1 :
+					zoo[counter]=insectsFactory.getAnimal(Constants.Animals.Insects.Moschito);
+					break;
+				default :
+					zoo[counter]=insectsFactory.getAnimal(Constants.Animals.Insects.Spider);
+				}
+				break;
+			default :
+				switch(rosu.nextInt(3))
+				{
+				case 0:
+					zoo[counter]=aquaticFactory.getAnimal(Constants.Animals.Aquatics.Crab);
+					break;
+				case 1 :
+					zoo[counter]=aquaticFactory.getAnimal(Constants.Animals.Aquatics.Seal);
+					break;
+				default :
+					zoo[counter]=aquaticFactory.getAnimal(Constants.Animals.Aquatics.Solmon);
+				}
+			}
 		}
+		Caretaker[] meal = new Caretaker[10000];
+		EmployeeAbstractFactory employeeFact = new EmployeeAbstractFactory();
+		CaretakersFactory caretakerFact = null;
+		try {
+			caretakerFact = (CaretakersFactory)employeeFact.getEmployeesFactory(services.factories.employeeFactory.Constants.Employees.Caretaker);
+		} catch (InvalidEmployeeException e) {
+			System.out.println("Invalid Employee Type: "+e.getType());
+		}
+		for (counter = 0; counter < 10000; counter++)
+			try {
+				meal[counter] = (Caretaker)caretakerFact.getEmployee(services.factories.employeeFactory.Constants.Employees.Caretaker);
+			} catch (InvalidEmployeeException e) {
+				System.out.println("Invalid Employee Type: "+e.getType());
+			}
+		String result;
+		for (Caretaker c: meal)
+			for (Animal a: zoo)
+			{
+				if(c.getIsDead()==false && a.getTakenCareOf()==false)
+				{
+					result = c.takeCareOf(a);
+					if(result.equals(services.factories.employeeFactory.Constants.Cartakers.TCO_KILLED))
+					{
+						c.setIsDead(true);
+						System.out.printf("A caretaker was killed by a %s. R.I.P!\n", a.getClass().getSimpleName());	
+					}
+					else if (result.equals(services.factories.employeeFactory.Constants.Cartakers.TCO_NO_TIME))
+						continue;
+					else
+						System.out.printf("A caretaker took care of an %s.Yeeeee! \n",a.getClass().getSimpleName());
+				}
+			}
+		}
+		
 
 }

@@ -3,9 +3,9 @@ package models.animlas;
 public abstract class Reptile extends Animal {
 	protected boolean isUgly;
 	protected boolean laysEggs;
-	public Reptile(boolean isUgly, String name, int nrOfLegs,boolean laysEggs)
+	public Reptile(boolean isUgly, String name, int nrOfLegs,boolean laysEggs,double maintenanceCost,double dangPerc)
 	{
-		super(name,nrOfLegs);
+		super(name,nrOfLegs, maintenanceCost, dangPerc);
 		this.isUgly = isUgly;
 	}
 	public boolean getisUgly()

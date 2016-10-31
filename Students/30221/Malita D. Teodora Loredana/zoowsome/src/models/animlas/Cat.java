@@ -3,12 +3,12 @@ package models.animlas;
 public class Cat extends Mammal {
 	private String race;
 	public Cat(String name, String race){
-		super((float)39.7 ,false,  name,  4);
+		super((float)39.7 ,false,  name,  4,8.0,0.15);
 		this.race=race;
 	}
 	public Cat()
 	{
-		super((float)39.7,false,"Unknown",4);
+		super((float)39.7,false,"Unknown",4,8.0,0.15);
 		this.race="Unknown";
 	}
 	public String getRace()
