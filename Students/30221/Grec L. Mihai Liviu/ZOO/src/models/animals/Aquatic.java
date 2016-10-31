@@ -1,15 +1,18 @@
 package models.animals;
 
 public abstract class Aquatic extends Animal{
-	private int avgSwimDepth;
+	private Integer avgSwimDepth;
 	private WaterType waterType;
-	public int getAvgSwimDepth(){
+	protected Aquatic(Double maintenanceCost , Double dangerPerc) {
+		super(maintenanceCost , dangerPerc);
+	}
+	public Integer getAvgSwimDepth(){
 		return avgSwimDepth;
 	}
 	public WaterType getWaterType(){
 		return waterType;
 	}
-	public void setAvgSwimDepth(int avgSwimDepth){
+	public void setAvgSwimDepth(Integer avgSwimDepth){
 		this.avgSwimDepth = avgSwimDepth;
 	}
 	public void setWaterType(WaterType waterType){

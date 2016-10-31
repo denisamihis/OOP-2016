@@ -1,6 +1,9 @@
 package models.animals;
 
 public abstract class Insect extends Animal{
+	protected Insect(Double maintenanceCost , Double dangerPerc) {
+		super(maintenanceCost , dangerPerc);
+	}
 	private boolean canFly;
 	private boolean isDangerous;
 	
