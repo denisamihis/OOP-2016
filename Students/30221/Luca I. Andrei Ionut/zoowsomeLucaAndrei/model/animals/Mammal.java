@@ -4,6 +4,10 @@ public abstract class Mammal extends Animal {
 	private float normalBodyTemp;
 	private float percBodyHair;
 
+	public Mammal(Double maintenaceCost, Double dangerPerc) {
+		super(maintenaceCost, dangerPerc);
+	}
+
 	public float getNormalBodyTemp() {
 		return normalBodyTemp;
 	}

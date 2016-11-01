@@ -3,6 +3,10 @@ package animals;
 public abstract class Aquatic extends Animal {
 	private Integer avgSwimDepth;
 
+	public Aquatic(Double maintenaceCost, Double dangerPerc) {
+		super(maintenaceCost, dangerPerc);
+	}
+
 	public enum watType {
 		Freshwater, Saltwater
 	}

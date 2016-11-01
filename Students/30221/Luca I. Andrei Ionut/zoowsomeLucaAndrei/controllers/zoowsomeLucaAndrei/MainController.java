@@ -1,10 +1,12 @@
 package zoowsomeLucaAndrei;
 
+import java.math.BigDecimal;
 import java.util.Random;
 
 import animals.Animal;
 import animals.Mammal;
 import animals.Reptile;
+import employees.Caretaker;
 import animals.Bird;
 import animals.Aquatic;
 import animals.Insect;
@@ -21,6 +23,36 @@ public class MainController {
 		animals = MainController.randomise();
 		for (int i = 0; i < 50; i++)
 			System.out.printf("We have an/a %s with %d legs!\n", animals[i].getName(), animals[i].getNrOfLegs());
+		Caretaker[] employee = new Caretaker[5];
+		employee[0] = new Caretaker("Jimmy", BigDecimal.valueOf(100.00), false, 8.00);
+		employee[1] = new Caretaker("Jonny", BigDecimal.valueOf(100.00), false, 8.00);
+		employee[2] = new Caretaker("Jam", BigDecimal.valueOf(100.00), false, 8.00);
+		employee[3] = new Caretaker("June", BigDecimal.valueOf(100.00), false, 8.00);
+		employee[4] = new Caretaker("Rolf", BigDecimal.valueOf(100.00), false, 8.00);
+		String result = "";
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 50; j++) {
+				if (employee[i].getIsDead() == false && animals[j].getTakenCareOf() == false) {
+					result = employee[i].takeCareOf(animals[j]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						employee[i].setIsDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						continue;
+					} else {
+						animals[j].setTakenCareOf(true);
+					}
+					System.out.println(animals[j].getName() + " " + employee[i].getName() + " "
+							+ employee[i].getWorkingHours() + " " + result);
+				}
+
+			}
+		}
+		for (int k = 0; k < 50; k++) {
+			if (animals[k].getTakenCareOf() == true)
+				System.out.println("Animalul " + animals[k].getName() + " a fost ingrijit");
+			else
+				System.out.println("Animalul " + animals[k].getName() + " nu a fost ingrijit");
+		}
 	}
 
 	public static Animal[] randomise() throws Exception {

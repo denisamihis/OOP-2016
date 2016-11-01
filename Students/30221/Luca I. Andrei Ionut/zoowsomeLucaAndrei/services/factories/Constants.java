@@ -29,9 +29,9 @@ public final class Constants {
 		}
 
 		public static final class Aquatics {
-			public static final String SeaTurtle= "SeaTurtle";
+			public static final String SeaTurtle = "SeaTurtle";
 			public static final String JellyFish = "JellyFish";
-			public static final String KoiFish= "KoiFish";
+			public static final String KoiFish = "KoiFish";
 		}
 
 		public static final class Insects {
@@ -39,5 +39,17 @@ public final class Constants {
 			public static final String RedAnt = "RedAnt";
 			public static final String StingBee = "StingBee";
 		}
+	}
+
+	public static final class Employees {
+		public static final class Caretakers {
+			public static final String TCO_SUCCESS = "SUCCESS";
+			public static final String TCO_KILLED = "KILLED";
+			public static final String TCO_NO_TIME = "NO_TIME";
+		}
+	}
+
+	public static final class EmployeeJobs {
+		public static final String Caretaker = "Caretaker";
 	}
 }
