@@ -1,9 +1,27 @@
 package javasmmr.zoowsome.models.animals;
+import java.util.Random;
 
-public abstract class Animal {
+public abstract class Animal implements Killer{
 	private Integer nrOfLegs;
 	private String name;
+	private final Double maintenanceCost; //holds how many hours per week an animal requires
+	private final Double dangerPerc;
+	private Boolean takenCareOf;
 	
+	public Animal(Double maintenanceCost, Double dangerPerc){
+		this.maintenanceCost=maintenanceCost;
+		this.dangerPerc=dangerPerc;
+		this.takenCareOf=false;
+	}
+	
+	public boolean kill(){
+		Random random= new Random();
+		Double randomDangerPerc= random.nextDouble();
+		if(randomDangerPerc < dangerPerc)	
+			return true; 
+		return false;
+	}
+
 	public Integer getNrOfLegs(){
 		return nrOfLegs;
 	}
@@ -19,5 +37,21 @@ public abstract class Animal {
 	public void setName(String name){
 		this.name=name;
 	}
-
+	
+	public void setTakenCareOf(Boolean takenCareOf){
+		this.takenCareOf=takenCareOf;
+	}
+	
+	public Boolean getTakenCareOf(){
+		return takenCareOf;
+	}
+	
+	public Double getMaintenanceCost(){
+		return maintenanceCost;
+	}
+	
+	public Double getDangerPerc(){
+		return dangerPerc;
+	}
+	
 }

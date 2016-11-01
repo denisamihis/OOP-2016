@@ -1,4 +1,4 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animals;
 
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Dolphin;

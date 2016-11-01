@@ -1,4 +1,4 @@
-package javasmmr.zoowsome.services.factories;
+package javasmmr.zoowsome.services.factories.animals;
 
 public class AnimalFactory {
 		

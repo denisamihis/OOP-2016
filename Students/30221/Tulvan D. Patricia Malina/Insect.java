@@ -1,6 +1,10 @@
 package javasmmr.zoowsome.models.animals;
 
 public abstract class Insect extends Animal {
+	public Insect(Double maintenanceCost, Double dangerPerc) {
+		super(maintenanceCost, dangerPerc);
+	}
+
 	private Boolean canFly;
 	private Boolean isDangerous;
 	
