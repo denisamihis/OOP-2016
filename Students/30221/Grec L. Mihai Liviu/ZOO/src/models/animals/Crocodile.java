@@ -1,6 +1,13 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
 
 public class Crocodile  extends Reptile{
 	public Crocodile(){
@@ -21,5 +28,8 @@ public class Crocodile  extends Reptile{
 			return 0.2;
 		return 0;
 	}
-	
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Reptiles.Crocodile);	
+	}
 }

@@ -1,6 +1,13 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
 
 public class Eagle extends Bird{
 	public Eagle(){
@@ -22,5 +29,9 @@ public class Eagle extends Bird{
 		if (date.get(Calendar.HOUR_OF_DAY)>=22 && date.get(Calendar.HOUR_OF_DAY) <=6)
 			return 0.26;
 		return 0;
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Birds.Eagle);	
 	}
 }

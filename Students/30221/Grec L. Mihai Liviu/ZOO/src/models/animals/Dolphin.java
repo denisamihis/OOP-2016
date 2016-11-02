@@ -1,5 +1,12 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
+
 public class Dolphin extends Aquatic{
 	public Dolphin(){
 		super(7.4 , 0.12);
@@ -14,5 +21,9 @@ public class Dolphin extends Aquatic{
 		setName(name);
 		setAvgSwimDepth(avgSwimDepth);
 		setWaterType(waterType);
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Aquatics.Dolphin);	
 	}
 }

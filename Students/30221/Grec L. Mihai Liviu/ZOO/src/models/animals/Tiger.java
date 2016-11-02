@@ -1,6 +1,13 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
 
 public class Tiger extends Mammal{
 	public Tiger(){
@@ -22,5 +29,9 @@ public class Tiger extends Mammal{
 		if (date.get(Calendar.DAY_OF_MONTH)>=20 && date.get(Calendar.DAY_OF_MONTH)<=28)
 			return 0.18;
 		return 0;
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Mammals.Tiger);	
 	}
 }

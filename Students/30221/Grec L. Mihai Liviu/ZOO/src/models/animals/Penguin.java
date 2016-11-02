@@ -1,6 +1,13 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
 
 public class Penguin extends Aquatic{
 	public Penguin(){
@@ -22,5 +29,9 @@ public class Penguin extends Aquatic{
 		if (date.get(Calendar.MONTH)>=Calendar.JUNE && date.get(Calendar.MONTH)<=Calendar.AUGUST)
 			return 0.12;
 		return 0;
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Aquatics.Penguin);	
 	}
 }
