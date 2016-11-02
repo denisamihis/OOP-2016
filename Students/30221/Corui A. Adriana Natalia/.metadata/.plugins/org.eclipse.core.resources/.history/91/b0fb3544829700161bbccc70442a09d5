@@ -1,0 +1,12 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Cockroach extends Insect{
+
+	public Cockroach(String name)
+	{
+		super.setNrOfLegs(8);
+		super.setDangerLvl(true);
+		super.setFlyAbility(false);
+		super.setName(name);	
+	}
+}
