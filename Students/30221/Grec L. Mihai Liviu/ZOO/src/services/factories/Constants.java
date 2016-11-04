@@ -4,6 +4,11 @@ public final class Constants {
 	public static final class Employee{
 		public static final String CareTakers = "CareTakers";
 	}
+	public static final class XML_TAGS{
+		public static final String DISCRIMINANT = "DISCRIMINANT";
+		public static final String ANIMAL = "ANIMAL";
+		public static final String EMPLOYEE = "EMPLOYEE";
+	}
 	public static final class Species{
 		public static final String Mammals = "Mammals";
 		public static final String Reptiles = "Reptiles";

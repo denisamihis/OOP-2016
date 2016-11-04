@@ -1,13 +1,22 @@
 package controllers;
 import models.animals.*;
 import models.employees.*;
-
+import repositories.AnimalRepository;
+import repositories.EmployeeRepository;
 import models.employees.*;
 import services.factories.*;
+
+import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 public class MainController {
 
 	public static void main(String[] args) throws Exception {
+		Scanner citire = new Scanner(System.in);
+		ArrayList<Animal> array = new ArrayList<Animal>();
+		AnimalRepository database = new AnimalRepository();
+		ArrayList<Employee> array1 = new ArrayList<Employee>();
+		EmployeeRepository database1 = new EmployeeRepository();
 		Random species = new Random();
 		Random animal = new Random();
 		int row = 0;
@@ -25,14 +34,20 @@ public class MainController {
 				switch(column){
 				case 0:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Mammals.Kangaroo);
+					Animal kangaroo = new Kangaroo();
+					array.add(kangaroo);
 					break;
 				}
 				case 1:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Mammals.Lion);
+					Animal lion = new Lion();
+					array.add(lion);
 					break;
 				}
 				case 2:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Mammals.Tiger);
+					Animal tiger = new Tiger();
+					array.add(tiger);
 					break;
 				}
 				default:{
@@ -48,14 +63,20 @@ public class MainController {
 				switch(column){
 				case 0:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Aquatics.Dolphin);
+					Animal dolphin = new Dolphin();
+					array.add(dolphin);
 					break;
 				}
 				case 1:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Aquatics.Penguin);
+					Animal penguin = new Penguin();
+					array.add(penguin);
 					break;
 				}
 				case 2:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Aquatics.Seal);
+					Animal seal = new Seal();
+					array.add(seal);
 					break;
 				}
 				default:{
@@ -72,14 +93,20 @@ public class MainController {
 				switch(column){
 				case 0:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Birds.Eagle);
+					Animal eagle = new Eagle();
+					array.add(eagle);
 					break;
 				}
 				case 1:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Birds.Emu);
+					Animal emu = new Emu();
+					array.add(emu);
 					break;
 				}
 				case 2:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Birds.Peacock);
+					Animal peacock = new Peacock();
+					array.add(peacock);
 					break;
 				}
 				default:{
@@ -93,14 +120,20 @@ public class MainController {
 				switch(column){
 				case 0:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Insects.Butterfly);
+					Animal butterfly = new Butterfly();
+					array.add(butterfly);
 					break;
 				}
 				case 1:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Insects.Cockroach);
+					Animal cockroach = new Cockroach();
+					array.add(cockroach);
 					break;
 				}
 				case 2:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Insects.Spider);
+					Animal spider = new Spider();
+					array.add(spider);
 					break;
 				}
 				default:{
@@ -114,14 +147,20 @@ public class MainController {
 				switch(column){
 				case 0:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Reptiles.Crocodile);
+					Animal crocodile = new Crocodile();
+					array.add(crocodile);
 					break;
 				}
 				case 1:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Reptiles.Snake);
+					Animal snake = new Snake();
+					array.add(snake);
 					break;
 				}
 				case 2:{
 					a1[counter] = speciesFactory1.getAnimal(Constants.Animals.Reptiles.Turtle);
+					Animal turtle = new Turtle();
+					array.add(turtle);
 					break;
 				}
 				default:{
@@ -140,10 +179,17 @@ public class MainController {
 		EmployeeAbstractFactory test = new EmployeeAbstractFactory();
 		EmployeeFactory test1 = test.getEmployeeFactory(Constants.Employee.CareTakers);
 		Employee[] angajat1 = new Employee[20];
-		for(int counter = 0;counter<20;counter++)
+		for(int counter = 0;counter<angajat1.length;counter++){
 			angajat1[counter] = test1.getEmployee();
+			Employee caretaker = new CareTaker();
+			System.out.println("Numele angajatului:");
+			String nume = citire.nextLine();
+			angajat1[counter].setName(nume);
+			caretaker.setName(nume);
+			array1.add(caretaker);
+		}
 		System.out.println("Nume\tSalariu");
-		for (int counter = 0;counter<10;counter++)
+		for (int counter = 0;counter<angajat1.length;counter++)
 		System.out.println(angajat1[counter].getName() + "\t" + angajat1[counter].getSalary());
 		
 		System.out.println();
@@ -175,6 +221,8 @@ public class MainController {
 		else 
 			System.out.println("Din lipsa de personal, animalul nr " + counter +" va muri de foame");
 		}
-	
+		citire.close();
+		database.save(array);
+		database1.save(array1);
 	}
 }

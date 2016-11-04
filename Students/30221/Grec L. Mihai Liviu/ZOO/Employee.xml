@@ -1,0 +1,162 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Ionel</name>
+	<ID>3633986572443</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dorel</name>
+	<ID>4789690469637</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gigel</name>
+	<ID>8776213012115</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<ID>4142811417313</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Viorel</name>
+	<ID>7010005761540</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ispas</name>
+	<ID>2446079009145</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Augustus</name>
+	<ID>9302596249532</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Titel</name>
+	<ID>8983823152077</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Banel</name>
+	<ID>8032892565186</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Jardel</name>
+	<ID>5444623203448</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Fanel</name>
+	<ID>4577422131935</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Panfil</name>
+	<ID>3122151117803</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eunuc</name>
+	<ID>2493987555754</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Sidoniu</name>
+	<ID>9015658288759</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Francis</name>
+	<ID>1533302791039</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Carmen\</name>
+	<ID>7055027227207</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dorel</name>
+	<ID>9570426712817</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cornel</name>
+	<ID>5517807565087</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Costel</name>
+	<ID>7483869769184</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Roland</name>
+	<ID>1056268551459</ID>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<workingHours>null</workingHours>
+	<DISCRIMINANT>CareTakers</DISCRIMINANT>
+</EMPLOYEE>
+</content>

@@ -1,5 +1,12 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
+
 public class Emu extends Bird{
 	public Emu(){
 		super(3.2 , 0.18);
@@ -14,5 +21,9 @@ public class Emu extends Bird{
 		setName(name);
 		setMigrates(migrates);
 		setAvgFlightAltitude(avgFlightAltitude);
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT , Constants.Animals.Birds.Emu);	
 	}
 }
