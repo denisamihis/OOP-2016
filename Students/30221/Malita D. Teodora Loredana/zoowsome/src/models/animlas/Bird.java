@@ -3,8 +3,8 @@ package models.animlas;
 public abstract class Bird extends Animal {
 	protected boolean migrates;
 	protected float altitude;
-	public Bird(boolean migrates,float altitude , String name, int nrOfLegs){
-		super(name,nrOfLegs);
+	public Bird(boolean migrates,float altitude , String name, int nrOfLegs,double maintenanceCost,double dangPerc){
+		super(name,nrOfLegs, maintenanceCost, dangPerc);
 		this.migrates = migrates;
 		this.altitude = altitude;
 	}

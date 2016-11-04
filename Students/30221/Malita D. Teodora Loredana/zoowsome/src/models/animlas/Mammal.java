@@ -3,8 +3,8 @@ package models.animlas;
 public abstract class Mammal extends Animal{
 	protected float bodyTemp;
 	protected boolean isDangerous;
-	public Mammal (float bodyTemp, boolean isDangerous, String name, int nrOfLegs){
-		super(name,nrOfLegs);
+	public Mammal (float bodyTemp, boolean isDangerous, String name, int nrOfLegs,double maintenanceCost,double dangPerc){
+		super(name,nrOfLegs,maintenanceCost, dangPerc);
 		this.bodyTemp=bodyTemp;
 		this.isDangerous=isDangerous;
 	}
