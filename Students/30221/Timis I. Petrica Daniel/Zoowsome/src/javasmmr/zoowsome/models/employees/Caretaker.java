@@ -1,6 +1,13 @@
 package javasmmr.zoowsome.models.employees;
 
+import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+
 import java.math.BigDecimal;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
 
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.services.factories.constants.Constants;
@@ -26,8 +33,6 @@ public class Caretaker extends Employee implements Caretaker_I {
 	public void setWorkingHours(Double workingHours) {
 		this.workingHours = workingHours;
 	}
-
-	// Caretaker_I Interface Method
 	
 	public String takeCareOf(Animal a) {
 		if(a.kill()) {
@@ -44,4 +49,14 @@ public class Caretaker extends Employee implements Caretaker_I {
 		return Constants.Employees.Caretakers.TCO_SUCCES;
 	}
 
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, "workingHours", String.valueOf(getWorkingHours()));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Employees.CARETAKER);
+	}
+
+	public void decodeFromXml(Element element) {
+		setWorkingHours(Double.valueOf(element.getElementsByTagName("workingHours").item(0).getTextContent()));
+	}
+	
 }

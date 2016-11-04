@@ -7,11 +7,11 @@ public class AquaticFactory extends SpeciesFactory {
 	
 	@Override
 	public Animal getAnimal(String type) throws Exception {
-		if (Constants.Animals.Aquatics.Octopus.equals(type)) {
+		if (Constants.Animals.Aquatics.OCTOPUS.equals(type)) {
 			return new Octopus();
-		} else if(Constants.Animals.Aquatics.Shark.equals(type)) {
+		} else if(Constants.Animals.Aquatics.SHARK.equals(type)) {
 			return new Shark();
-		} else if (Constants.Animals.Aquatics.Seahorse.equals(type)) {
+		} else if (Constants.Animals.Aquatics.SEAHORSE.equals(type)) {
 			return new Seahorse();
 		} else 
 			throw new Exception("Invalid animal exception!");

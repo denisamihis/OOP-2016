@@ -9,14 +9,14 @@ public class AnimalGenerator {
 	public static Animal getAnimal() throws Exception {
 		Random random = new Random();
 
-		String[] species = { Constants.Species.Mammals, Constants.Species.Reptiles, Constants.Species.Insects,
-				Constants.Species.Birds, Constants.Species.Aquatics };
+		String[] species = { Constants.Species.MAMMALS, Constants.Species.REPTILES, Constants.Species.INSECTS,
+				Constants.Species.BIRDS, Constants.Species.AQUATICS };
 		String[][] animals = { 
-				{ Constants.Animals.Mammals.Tiger, Constants.Animals.Mammals.Monkey, Constants.Animals.Mammals.Cow },
-				{ Constants.Animals.Reptiles.Snake, Constants.Animals.Reptiles.Turtle, Constants.Animals.Reptiles.Lizard },
-				{ Constants.Animals.Insects.Butterfly, Constants.Animals.Insects.Spider, Constants.Animals.Insects.Cockroach },
-				{ Constants.Animals.Birds.Penguin, Constants.Animals.Birds.Ostrich, Constants.Animals.Birds.Vulture },
-				{ Constants.Animals.Aquatics.Octopus, Constants.Animals.Aquatics.Shark, Constants.Animals.Aquatics.Seahorse } };
+				{ Constants.Animals.Mammals.TIGER, Constants.Animals.Mammals.MONKEY, Constants.Animals.Mammals.COW },
+				{ Constants.Animals.Reptiles.SNAKE, Constants.Animals.Reptiles.TURTLE, Constants.Animals.Reptiles.LIZARD },
+				{ Constants.Animals.Insects.BUTTERFLY, Constants.Animals.Insects.SPIDER, Constants.Animals.Insects.COCKROACH },
+				{ Constants.Animals.Birds.PENGUIN, Constants.Animals.Birds.OSTRICH, Constants.Animals.Birds.VULTURE },
+				{ Constants.Animals.Aquatics.OCTOPUS, Constants.Animals.Aquatics.SHARK, Constants.Animals.Aquatics.SEAHORSE } };
 		
 		int speciesRandom = random.nextInt(species.length);
 		int animalsRandom = random.nextInt(animals[0].length);

@@ -1,6 +1,13 @@
 package javasmmr.zoowsome.models.animals;
 
+import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+
 import java.util.Date;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import javasmmr.zoowsome.services.factories.constants.Constants;
 
 public class Shark extends Aquatic {
 	
@@ -30,9 +37,9 @@ public class Shark extends Aquatic {
 		return 0.0;
 	}
 	
-	/* 
-	 * If the time is between 9:00 and 15:00 the chances of being killed
-	 * by the shark are bigger with 10%.
-	 */
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Aquatics.SHARK);
+	}
 	
 }

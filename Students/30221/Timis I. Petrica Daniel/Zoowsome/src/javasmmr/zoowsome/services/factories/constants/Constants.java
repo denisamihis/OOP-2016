@@ -1,59 +1,66 @@
 package javasmmr.zoowsome.services.factories.constants;
 
-public final class Constants {	
-	
-	// Constants for animals and species
+public final class Constants {
+
 	public static final class Species {
-		public static final String Mammals = "Mammals";
-		public static final String Reptiles = "Reptiles";
-		public static final String Birds = "Birds";
-		public static final String Aquatics = "Aquatics";
-		public static final String Insects = "Insects";
+		public static final String MAMMALS = "Mammals";
+		public static final String REPTILES = "Reptiles";
+		public static final String BIRDS = "Birds";
+		public static final String AQUATICS = "Aquatics";
+		public static final String INSECTS = "Insects";
+	}
+
+	public static final class Animals {
+
+		public static final class Mammals {
+			public static final String TIGER = "Tiger";
+			public static final String MONKEY = "Monkey";
+			public static final String COW = "Cow";
+		}
+
+		public static final class Reptiles {
+			public static final String SNAKE = "Snake";
+			public static final String TURTLE = "Turtle";
+			public static final String LIZARD = "Lizard";
+		}
+
+		public static final class Insects {
+			public static final String BUTTERFLY = "Butterfly";
+			public static final String SPIDER = "Spider";
+			public static final String COCKROACH = "Cockroach";
+		}
+
+		public static final class Birds {
+			public static final String PENGUIN = "Penguin";
+			public static final String OSTRICH = "Ostrich";
+			public static final String VULTURE = "Vulture";
+		}
+
+		public static final class Aquatics {
+			public static final String OCTOPUS = "Octopus";
+			public static final String SHARK = "Shark";
+			public static final String SEAHORSE = "Seahorse";
+		}
+	}
+
+	public static final class Employees {
+
+		public static final String CARETAKER = "Caretaker";
+
+		public static final class Caretakers {
+			public static final String TCO_SUCCES = "SUCCESS";
+			public static final String TCO_KILLED = "KILLED";
+			public static final String TCO_NO_TIME = "NO_TIME";
+		}
+		
 	}
 	
-	public static final class Animals {
+	public static final class XML_TAGS {
 		
-		public static final class Mammals {
-			public static final String Tiger = "TIGER";
-			public static final String Monkey = "MONKEY";
-			public static final String Cow = "COW";
-		}
+		public static final String ANIMAL = "ANIMAL";
+		public static final String EMPLOYEE = "EMPLOYEE";
+		public static final String DISCRIMINANT = "DISCRIMINANT";
 		
-		public static final class Reptiles {
-			public static final String Snake = "SNAKE";
-			public static final String Turtle = "TURTLE";
-			public static final String Lizard = "LIZARD";
-		}
-		
-		public static final class Insects {
-			public static final String Butterfly = "BUTTERFLY"; 
-			public static final String Spider = "SPIDER";
-			public static final String Cockroach = "COCKROACH";
-		}
-		
-		public static final class Birds {
-			public static final String Penguin = "PENGUIN";
-			public static final String Ostrich = "OSTRICH";
-			public static final String Vulture = "VULTURE";
-		}
-		
-		public static final class Aquatics {
-			public static final String Octopus = "OCTOPUS";
-			public static final String Shark = "SHARK";
-			public static final String Seahorse = "SEAHORSE";
-		}
-	}	
-	
-	// Constants for employees
-		public static final class Employees {
-			
-			public static final String Caretaker = "CARETAKER";
-			
-			public static final class Caretakers {
-				public static final String TCO_SUCCES = "SUCCESS";
-				public static final String TCO_KILLED = "KILLED";
-				public static final String TCO_NO_TIME = "NO_TIME";
-			}
-		}
-	
+	}
+
 }

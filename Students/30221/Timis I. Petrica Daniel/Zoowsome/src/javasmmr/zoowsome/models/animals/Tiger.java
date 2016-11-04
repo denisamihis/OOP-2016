@@ -1,6 +1,13 @@
 package javasmmr.zoowsome.models.animals;
 
+import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+
 import java.util.*;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import javasmmr.zoowsome.services.factories.constants.Constants;
 
 public class Tiger extends Mammal {
 	
@@ -30,9 +37,9 @@ public class Tiger extends Mammal {
 		return 0.0;
 	}
 	
-	/* 
-	 * If the time is between 12:00 and 18:00 the chances of being killed
-	 * by the tiger are bigger with 10%.
-	 */
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Mammals.TIGER);
+	}
 
 }

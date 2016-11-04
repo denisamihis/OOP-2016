@@ -1,0 +1,100 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Penguin</name>
+	<maintenanceCost>5.5</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<DISCRIMINANT>Penguin</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>4.1</maintenanceCost>
+	<dangerPerc>0.4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Cockroach</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.01</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Cockroach</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>50</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Cockroach</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.01</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Cockroach</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Cockroach</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.01</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Cockroach</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Butterfly</name>
+	<maintenanceCost>0.5</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>Butterfly</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>5.5</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2500</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Lizard</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>0.04</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>Lizard</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Octopus</name>
+	<maintenanceCost>3.9</maintenanceCost>
+	<dangerPerc>0.12</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2100</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Octopus</DISCRIMINANT>
+</ANIMAL>
+</content>

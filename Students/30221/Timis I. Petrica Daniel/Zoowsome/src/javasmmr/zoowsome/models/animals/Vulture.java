@@ -1,6 +1,13 @@
 package javasmmr.zoowsome.models.animals;
 
+import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+
 import java.util.Date;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import javasmmr.zoowsome.services.factories.constants.Constants;
 
 public class Vulture extends Bird {
 
@@ -30,8 +37,8 @@ public class Vulture extends Bird {
 		return 0.0;
 	}
 	
-	/* 
-	 * If it's June the chances of being killed by the vulture are bigger
-	 * with 10%.
-	 */
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+		super.encodeToXml(eventWriter);
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Birds.VULTURE);
+	}
 }
