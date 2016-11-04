@@ -7,11 +7,11 @@ public class MammalFactory extends SpeciesFactory {
 	
 	@Override
 	public Animal getAnimal(String type) throws Exception {
-		if (Constants.Animals.Mammals.Tiger.equals(type)) {
+		if (Constants.Animals.Mammals.TIGER.equals(type)) {
 			return new Tiger();
-		} else if (Constants.Animals.Mammals.Monkey.equals(type)) {
+		} else if (Constants.Animals.Mammals.MONKEY.equals(type)) {
 			return new Monkey();
-		} else if (Constants.Animals.Mammals.Cow.equals(type)) {
+		} else if (Constants.Animals.Mammals.COW.equals(type)) {
 			return new Cow();
 		} else
 			throw new Exception("Invalid animal exception!");

@@ -1,0 +1,82 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Connor</name>
+	<id>7360832871002007755</id>
+	<salary>9473</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Logan</name>
+	<id>8569235998502126281</id>
+	<salary>8863</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Jacob</name>
+	<id>9129223189579511250</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Seth</name>
+	<id>3421787205945676939</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.677215996216116</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Frankie</name>
+	<id>5687269697141845975</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ryan</name>
+	<id>298992419660283987</id>
+	<salary>7379</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alexander</name>
+	<id>9194860014267226806</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>James</name>
+	<id>8539274565332573848</id>
+	<salary>6875</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Oliver</name>
+	<id>6849724416153183604</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Lucas</name>
+	<id>4481574951516407843</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.02299264452141</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+</content>
