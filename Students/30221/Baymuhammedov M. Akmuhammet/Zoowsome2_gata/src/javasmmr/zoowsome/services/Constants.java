@@ -47,9 +47,9 @@ public final class Constants {
 		public static final String Caretakers="Caretakers";
 		
 		public static final class Caretaker{
-			public static final String TCO_Succes="Succes";
-			public static final String TCO_Killed="Killed";
-			public static final String TCO_No_time="No time";
+			public static final String TCO_Succes="SUCCES!";
+			public static final String TCO_Killed="KILLED!";
+			public static final String TCO_No_time="NOTIME!";
 			
 		}
 	}

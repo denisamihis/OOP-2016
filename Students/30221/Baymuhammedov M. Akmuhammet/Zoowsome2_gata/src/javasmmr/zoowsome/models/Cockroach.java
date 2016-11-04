@@ -7,12 +7,14 @@ public class Cockroach extends Insects{
 		setname("Cockroach");
 		setvenomous(Boolean.FALSE);
 	    setcanfly(Boolean.FALSE);
+	    setTakencareof(Boolean.FALSE);
 	}
-	public Cockroach(int nrlegs, String name, Boolean venomous, Boolean canfly, double maintenance, double danger){
+	public Cockroach(int nrlegs, String name, Boolean venomous, Boolean canfly, double maintenance, double danger, boolean Takencareof){
 		super(maintenance, danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setvenomous(venomous);
 	    setcanfly(canfly);
+	    setTakencareof(Takencareof);
 	}
 }

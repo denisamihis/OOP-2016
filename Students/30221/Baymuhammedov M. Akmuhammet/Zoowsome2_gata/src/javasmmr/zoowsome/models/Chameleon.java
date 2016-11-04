@@ -7,13 +7,15 @@ public class Chameleon extends Reptiles{
 	setname("Chameleon");
 	setvenomous(Boolean.FALSE);
 	setcanswim(Boolean.FALSE);
+	setTakencareof(Boolean.FALSE);
 	
 }
-	public Chameleon(int nrlegs, String name, Boolean venomous, Boolean canswim, double maintenance, double danger){
+	public Chameleon(int nrlegs, String name, Boolean venomous, Boolean canswim, double maintenance, double danger,boolean Takencareof){
 		super(maintenance, danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setvenomous(venomous);
 		setcanswim(canswim);
+		setTakencareof(Takencareof);
 	}
 }

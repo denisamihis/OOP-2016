@@ -7,12 +7,14 @@ public class Cow extends Mammals {
     	setname("Cow");
     	setbodytemp(100);
     	setfurr(100);
+    	setTakencareof(Boolean.FALSE);
     }
-    public Cow(int nrlegs, String name, int bodytemp, float furr,double maintenance, double danger){
+    public Cow(int nrlegs, String name, int bodytemp, float furr,double maintenance, double danger,boolean Takencareof){
     	super(maintenance, danger);
     	setnrlegs(nrlegs);
     	setname(name);
     	setbodytemp(bodytemp);
     	setfurr(furr);
+    	setTakencareof(Takencareof);
     }
 }

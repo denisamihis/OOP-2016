@@ -7,13 +7,15 @@ public class Beetle extends Insects{
 		setname("Beetle");
 		setvenomous(Boolean.FALSE);
 		setcanfly(Boolean.TRUE);
+		setTakencareof(Boolean.FALSE);
 	}
 	
-	public Beetle(int nrlegs, String name, Boolean venomous, Boolean canfly, double maintenance, double danger){
+	public Beetle(int nrlegs, String name, Boolean venomous, Boolean canfly, double maintenance, double danger,boolean Takencareof){
 		super(maintenance, danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setvenomous(venomous);
 		setcanfly(canfly);
+		setTakencareof(Takencareof);
 	}
 }

@@ -7,13 +7,15 @@ public class Snake extends Reptiles{
     	 setname("Snake");
     	 setvenomous(Boolean.TRUE);
     	 setcanswim(Boolean.TRUE);
+    	 setTakencareof(Boolean.FALSE);
      }
      
-     public Snake(int nrlegs, String name, Boolean venomous, Boolean canswim,double maintenance, double danger){
+     public Snake(int nrlegs, String name, Boolean venomous, Boolean canswim,double maintenance, double danger,boolean Takencareof){
     	 super(maintenance, danger);
     	 setnrlegs(nrlegs);
     	 setname(name);
     	 setvenomous(venomous);
     	 setcanswim(canswim);
+    	 setTakencareof(Takencareof);
      }
 }

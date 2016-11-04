@@ -1,7 +1,6 @@
 package javasmmr.zoowsome.controllers;
 import javasmmr.zoowsome.models.*;
 import javasmmr.zoowsome.employees.*;
-import javasmmr.zoowsome.employees.Caretaker;
 import javasmmr.zoowsome.services.*;
 import javasmmr.zoowsome.views.*;
 import java.util.Scanner;
@@ -62,22 +61,26 @@ public class Main {
 			A[13]= new Lizard();
 			A[14]= new Chameleon();
 			
-			Caretaker[] c= new Caretaker[3];
+			Caretaker[] c= new Caretaker[5];
 			Random rand = new Random();
-			long r = rand.nextLong();
+			long[] r = new long[5];
+			
+			for(int i=0;i<5;i++)
+				r[i]=rand.nextLong();
+			
 			String result=null;
 			
-			c[0]=new Caretaker("Dave",r,1000,false,8.0);
-			c[1]=new Caretaker("Nick",r,1000,false,8.0);
-			c[2]=new Caretaker("Conor",r,900,false,7.0);
-			c[3]=new Caretaker("Nate",r,1100,false,8.0);
-			c[4]=new Caretaker("John",r,500,false,4.0);
+			c[0]=new Caretaker("Dave",r[0],1000,false,8.0);
+			c[1]=new Caretaker("Nick",r[1],1000,false,8.0);
+			c[2]=new Caretaker("Conor",r[2],900,false,7.0);
+			c[3]=new Caretaker("Nate",r[3],1100,false,8.0);
+			c[4]=new Caretaker("John",r[4],500,false,4.0);
 			
 			for(int i=0;i<5;i++){
 				for(int j=0;j<15;j++){
 					if(c[i].getisDead()==false && A[j].getTakencareof()==false){
 						result=c[i].Takecareof(A[j]);
-					}
+						
 						if(result.equals(Constants.Employee.Caretaker.TCO_No_time)){
 							continue;
 						}
@@ -86,9 +89,20 @@ public class Main {
 						}
 						else
 							A[j].setTakencareof(Boolean.TRUE);
-						System.out.println("Animal "+ A[j].getName()+ "Takencare status:"+result+"Took care"+c[i].getname());
+						System.out.println("Animal "+ A[j].getName()+ " Takencare status: "+result+" Took care: "+c[i].getname());
 					}
 				}
+				
+				}
+			for(int i=0;i<5;i++){
+				System.out.println(" ");
+			System.out.println("Employee nr:"+i);
+			System.out.println("name:"+c[i].getname());
+			System.out.println("id:"+c[i].getid());
+			System.out.println("Salary:"+c[i].getSalary());
+			System.out.println("Workhour:"+c[i].getworkinghours());
+			System.out.println("IsDead:"+c[i].getisDead());
 			}
+            }
 
 	}

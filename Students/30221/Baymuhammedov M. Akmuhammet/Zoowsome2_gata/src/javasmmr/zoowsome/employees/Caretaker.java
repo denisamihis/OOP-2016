@@ -26,7 +26,7 @@ public class Caretaker extends Employee implements Caretaker_I{
 		this.workingHours=workingHours;
 	}
 	
-	Double d=this.workingHours;
+
 	
 	
 	public String Takecareof(Animals a){
@@ -38,7 +38,7 @@ public class Caretaker extends Employee implements Caretaker_I{
 		}
 		
 		a.setTakencareof(Boolean.TRUE);
-		this.workingHours=d - a.maintenancecost;
+		this.workingHours=this.workingHours - a.maintenancecost;
 		
 		return Constants.Employee.Caretaker.TCO_Succes;
 	}

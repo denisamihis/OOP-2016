@@ -6,12 +6,14 @@ public Hawk(){
 	setnrlegs(2);
 	setname("Hawk");
 	setflight(10000);
+	setTakencareof(Boolean.FALSE);
 }
 
-public Hawk(int nrlegs, String name, Integer flightability, double maintenance, double danger){
+public Hawk(int nrlegs, String name, Integer flightability, double maintenance, double danger,boolean Takencareof){
 	super(maintenance,danger);
 	setnrlegs(nrlegs);
 	setname(name);
 	setflight(flightability);
+	setTakencareof(Takencareof);
 }
 }

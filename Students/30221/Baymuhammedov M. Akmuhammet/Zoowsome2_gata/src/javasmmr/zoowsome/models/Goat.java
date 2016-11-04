@@ -7,13 +7,15 @@ public class Goat extends Mammals{
 	setname("Goat");
 	setbodytemp(120);
 	setfurr(100);
+	setTakencareof(Boolean.FALSE);
 	}
 	
-	public Goat(int nrlegs, String name, int bodytemp, float furr, double maintenance, double danger){
+	public Goat(int nrlegs, String name, int bodytemp, float furr, double maintenance, double danger,boolean Takencareof){
 		super(maintenance,danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setbodytemp(bodytemp);
 		setfurr(furr);
+		setTakencareof(Takencareof);
 	}
 }

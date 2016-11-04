@@ -6,12 +6,14 @@ public class Nightingale extends Bird {
 		setnrlegs(2);
 		setname("Nightingale");
 		setflight(1000);
+		setTakencareof(Boolean.FALSE);
 	}
 	
-	public Nightingale(int nrlegs, String name, Integer flightability,double maintenance,double danger){
+	public Nightingale(int nrlegs, String name, Integer flightability,double maintenance,double danger,boolean Takencareof){
 		super(maintenance,danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setflight(flightability);
+		setTakencareof(Takencareof);
 	}
 }

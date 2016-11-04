@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models;
 import java.util.Random;
-import java.lang.*;
+
 
 public abstract class Animals implements Killer{
 	private int nrlegs;

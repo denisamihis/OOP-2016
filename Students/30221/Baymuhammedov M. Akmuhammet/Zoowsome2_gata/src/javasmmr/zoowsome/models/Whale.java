@@ -7,13 +7,15 @@ public class Whale extends Aquatic{
 		setname("Whale");
 		setdangerous(Boolean.FALSE);
 		setswimdepth(1000);
+		setTakencareof(Boolean.FALSE);
 	}
-	public Whale(int nrlegs, String name, Boolean dangerous, int swimdepth,double maintenance,double danger){
+	public Whale(int nrlegs, String name, Boolean dangerous, int swimdepth,double maintenance,double danger,boolean Takencareof){
 		super(maintenance,danger);
 		setnrlegs(nrlegs);
 		setname(name);
 		setdangerous(dangerous);
 		setswimdepth(swimdepth);
+		setTakencareof(Takencareof);
 	}
 
 }
