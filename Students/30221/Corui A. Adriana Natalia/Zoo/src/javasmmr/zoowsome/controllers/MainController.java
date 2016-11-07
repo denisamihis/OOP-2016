@@ -1,25 +1,36 @@
 package javasmmr.zoowsome.controllers;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLStreamException;
+
+import org.xml.sax.SAXException;
+
+import javasmmr.zoowesome.repositories.AnimalRepository;
+import javasmmr.zoowesome.repositories.EmployeeRepository;
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Duck;
 import javasmmr.zoowsome.models.animals.Spider;
 import javasmmr.zoowsome.models.animals.Turtle;
 import javasmmr.zoowsome.models.employees.Caretaker;
+import javasmmr.zoowsome.models.employees.Employee;
 import javasmmr.zoowsome.services.factories.AnimalFactory;
 import javasmmr.zoowsome.services.factories.Constants;
 import javasmmr.zoowsome.services.factories.SpeciesFactory;
 
 public class MainController {
 
-	public static void main(String []args)
+	public static void main(String []args) throws XMLStreamException, ParserConfigurationException, SAXException, IOException
 	{
 		AnimalFactory abstractFactory=new AnimalFactory();
 		Animal animal1=null;
 		SpeciesFactory speciesFactory1=null;
 		
-		Animal animal[]=new Animal[3];
+		Animal[] animal=new Animal[3];
 		Caretaker caretakers []=new Caretaker[4];
 		caretakers[0]=new Caretaker("Joseph",BigDecimal.ONE);
 		caretakers[1]=new Caretaker("Great Gatsby",BigDecimal.valueOf(125.6));
@@ -71,5 +82,20 @@ public class MainController {
 		{
 			System.out.println("Error");
 		}
+		AnimalRepository a = new AnimalRepository();
+		ArrayList<Animal> animalList= new ArrayList<Animal>(3);
+		animalList.add(animal[0]);
+		animalList.add(animal[1]);
+		animalList.add(animal[2]);
+		a.save(animalList);
+		//a.load();
+		EmployeeRepository emplRepository=new EmployeeRepository();
+		ArrayList<Employee> e = new ArrayList<Employee>(4);
+		e.add(caretakers[0]);
+		e.add(caretakers[1]);
+		e.add(caretakers[2]);
+		e.add(caretakers[3]);
+		emplRepository.save(e);
+		//emplRepository.load();
 	}
 }

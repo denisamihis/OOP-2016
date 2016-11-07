@@ -51,5 +51,13 @@ public class Constants {
 			public static final String TCO_KILLED="KILLED";
 			public static final String TCO_NO_TIME="NO_TIME";
 		}
+
+		public static final String CareTaker = "CARETAKER";
+	}
+	public static final class XML_TAGS 
+	{
+		public final static String ANIMAL="ANIMAL";
+		public static final String DISCRIMINANT = "DISCRIMINANT";
+		public static final String EMPLOYEE = "EMPLOYEE";
 	}
 }

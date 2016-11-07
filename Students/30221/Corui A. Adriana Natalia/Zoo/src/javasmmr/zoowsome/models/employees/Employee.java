@@ -2,7 +2,11 @@ package javasmmr.zoowsome.models.employees;
 
 import java.math.BigDecimal;
 
-public abstract class Employee {
+import javasmmr.zoowesome.models.interfaces.XML_Parsable;
+
+import javax.xml.stream.XMLEventWriter;
+
+public abstract class Employee implements XML_Parsable{
 
 	private String name;
 	private long id ;
