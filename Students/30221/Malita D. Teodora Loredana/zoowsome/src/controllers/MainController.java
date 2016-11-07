@@ -1,11 +1,11 @@
 package controllers;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 import models.animlas.*;
-import models.animlas.Butterfly;
-import models.animlas.Insect;
 import models.employees.Caretaker;
+import repositories.AnimalRepository;
 import services.factories.animalFactory.AnimalFactory;
 import services.factories.animalFactory.Constants;
 import services.factories.animalFactory.InvalidSpeciesException;

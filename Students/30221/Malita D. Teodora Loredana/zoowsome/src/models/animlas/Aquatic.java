@@ -1,4 +1,13 @@
 package models.animlas;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Text;
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import repositories.AnimalRepository;
 
 public abstract class Aquatic extends Animal{
 	protected int avgSwimDepth;
@@ -9,6 +18,19 @@ public abstract class Aquatic extends Animal{
 		super( name, nrOfLegs,maintenanceCost, dangPerc);
 		this.avgSwimDepth=avgSwimDepth;
 		this.waterType=waterType;	
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		try {
+			super.encodeToXml(eventWriter);
+		} catch (XMLStreamExceptionMLStreamException e) {
+			e.printStackTrace();
+		}
+		AnimalRepository.createNode(eventWriter,"avgSwimDepth",String.valueOf(getDepth()));
+		AnimalRepository.createNode(eventWriter, "waterType", String.valueOf(getWaterType()));
+	}
+	public void decodeFromXml(Element element){
+		setDepth(Integer.valueOf(element.getElementsByTagName("avgSwimDepth").item(0).getTextContent()));
+		setWaterType(wT.valueOf(element.getElementsByTagName("waterType").item(0).getTextContent()));
 	}
 	public int getDepth (){
 		return avgSwimDepth;
