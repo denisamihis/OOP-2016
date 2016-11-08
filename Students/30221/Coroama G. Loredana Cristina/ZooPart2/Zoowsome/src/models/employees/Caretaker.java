@@ -1,5 +1,16 @@
 package models.employees;
 
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+import static repositories.AnimalRepository.createNode;
+
+
+
+
+
+
+
 import models.animals.Animal;
 import services.factories.Constants;
 
@@ -33,6 +44,22 @@ public String takeCareOf(Animal a) {
 		//Subtract the maintenance cost from the caretakers working hours
 		return Constants.Employee.Caretaker.TCO_SUCCESS;
 }
+
+public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+super.encodeToXml(eventWriter);
+createNode(eventWriter, "workingsHours", String.valueOf(getWorkingsHours()));
+
+}
+
+
+@Override
+public void decodeFromXml(org.w3c.dom.Element element) {
+	// TODO Auto-generated method stub
+	setDead(Boolean.valueOf(  element.getElementsByTagName("workingsHours").item(0).getTextContent()));
+	
+}
+
+
 
 
 

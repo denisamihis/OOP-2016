@@ -1,6 +1,16 @@
 package models.animals;
+import static repositories.AnimalRepository.createNode;
 
-abstract public class Animal implements Killer {
+
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import models.interfaces.XML_Parsable;
+
+abstract public class Animal  implements Killer, XML_Parsable {
 	public Animal (double mn,double dp) {
 		maintenanceCost =mn;
 		
@@ -8,7 +18,12 @@ abstract public class Animal implements Killer {
 		//if(1<=maintenanceCost && maintenanceCost>=8)
 			//getMaintenanceCost();
 	}
-	
+	private double setMaintenanceCost(Double mn) {
+		// TODO Auto-generated method stub
+		return maintenanceCost;
+		
+		
+	}
 	private  int NrOfLegs;
 	private String name;
 	public final double maintenanceCost;
@@ -38,34 +53,33 @@ abstract public class Animal implements Killer {
 	public void setTakenCareOf(boolean takenCareOf) {
 		this.takenCareOf = takenCareOf;
 	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+		createNode(eventWriter, "nrOfLegs", String.valueOf(this.NrOfLegs));
+		createNode(eventWriter, "name", String.valueOf(this.name));
+		createNode(eventWriter, "maintenanceCost", String.valueOf(this.maintenanceCost));
+		createNode(eventWriter, "dangerPerc", String.valueOf(this.dangerPerc));
+		createNode(eventWriter, "takenCareOf", String.valueOf(this.takenCareOf));
+		}
 	
+	public void decodeFromXml(Element element) {
+		setNrOfLegs(Integer.valueOf(element.getElementsByTagName("nrOfLegs").item(0).getTextContent()));
+		setName(element.getElementsByTagName("name").item(0).getTextContent());
+		setMaintenanceCost(Double.valueOf(element.getElementsByTagName( "maintenanceCost").item(0).getTextContent()));
+		setDangerPerc(Double.valueOf(element.getElementsByTagName("dangerPerc").item(0).getTextContent()));
+		setTakenCareOf(Boolean.valueOf(element.getElementsByTagName("takenCareOf").item(0).getTextContent()));
+		}
+
+
+private double setDangerPerc(Double valueOf) {
+		// TODO Auto-generated method stub
+		return dangerPerc;
+	}
 public static void main (String[] args)
 {
-	/*Tiger obiect=new Tiger(4,"pisica",0,0);
-	obiect.saying();
-	Cow obiect2=new Cow(4,"Paulaaaa",0,0);
-	obiect2.saying();
-	Monkey obiect3=new Monkey(4,"Cosmin",0,0);
-	obiect3.saying();
-	Spider obiect4=new Spider(12,"Tarantula",false,true);
-	obiect4.saying();
-	Butterfly obiect5=new Butterfly(6,"Yay Pink Butterfly ", true, false);
-	obiect5.saying();
-	Cockroach obiect6=new Cockroach(4,"BlackCockroach",false,false);
-			obiect6.saying();
-	//ReggaeShark obiect7=new ReggaeShark(0," ReggaeShark ",20,0);
-		Eagle obiect7=new Eagle(4,"TheBigEagle",false,40);
-			obiect7.saying();
-			Chicken obiect8=new Chicken(4," sjkdfksjdbfs ",false,20);
-			obiect8.saying();
-			Owl obiect9=new Owl(4," Ruby ",false,330);
-			obiect9.saying();
-			Lizard obiect10=new Lizard(4," Martin ",true);
-			obiect10.saying();
-			Snake obiect11=new Snake(4," Elyan ",true);
-			obiect11.saying();
-			Turtle obiect12=new Turtle(4," Kludd ",true);
-			obiect12.saying();*/
+	
+}
+public double getDangerPerc() {
+	return dangerPerc;
 }
 
 

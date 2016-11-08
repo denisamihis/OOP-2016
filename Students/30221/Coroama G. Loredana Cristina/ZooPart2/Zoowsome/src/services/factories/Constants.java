@@ -16,7 +16,18 @@ public static final class Employee {
 		public static final String TCO_SUCCESS = "SUCCESS";
 		public static final String TCO_KILLED = "KILLED";
 		public static final String TCO_NO_TIME = "NO_TIME";
+		public static final String LISBON = "LISBON";
+		public static final String TERESA = "TERESA";
+		public static final String ROGER = "ROGER";
+		
+		
 	}
+}
+public static final class XML_TAGS {
+	public static final String DISCRIMINANT = "DISCRIMINANT";
+	public static final String ANIMAL = "ANIMAL";
+	public static final String EMPLOYEE = "EMPLOYEE";
+	
 }
 
 public static final class Animal {

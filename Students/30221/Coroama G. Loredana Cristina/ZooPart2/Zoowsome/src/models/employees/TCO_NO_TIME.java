@@ -7,7 +7,14 @@ import models.employees.Caretaker;
 import services.factories.Constants;
 
 public class TCO_NO_TIME extends Caretaker {
-
+public 	TCO_NO_TIME() {
+		
+		setWorkingsHours(0.0);
+		
+		
+		setDead(true);
+	
+	}
 	@Override
 	public String takeCareOf(Animal a) {
 		if (a.kill()) {

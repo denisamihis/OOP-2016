@@ -4,7 +4,12 @@ import models.animals.Animal;
 import services.factories.Constants;
 
 public class TCO_SUCCESS extends Caretaker{
-
+public 	TCO_SUCCESS() {
+		
+		setWorkingsHours(0.0);
+		
+	
+	}
 	@Override
 	public String takeCareOf(Animal a) {
 		if (a.kill()) {

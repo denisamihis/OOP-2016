@@ -8,6 +8,14 @@ import services.factories.Constants;
 import models.employees.Caretaker;
 public class TCO_KILLED extends Caretaker {
 
+public 	TCO_KILLED() {
+		
+		
+		
+		
+		setDead(true);
+	
+	}
 	@Override
 	public String takeCareOf(Animal a) {
 		if (a.kill()) {

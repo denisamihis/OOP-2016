@@ -1,5 +1,14 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import services.factories.Constants;
+
+
+
 public class Chicken extends Bird {
 	
 
@@ -19,6 +28,15 @@ public class Chicken extends Bird {
 				return true;
 			return false;
 		}
-	
+
+		public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException {
+			super.encodeToXml(eventWriter);
+			createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT,Constants.Animal.Bird.Chicken);
+			}
+		public void decodeFromXml(org.w3c.dom.Element element) {
+			// TODO Auto-generated method stub
+			
+		}
+		
 
 }
