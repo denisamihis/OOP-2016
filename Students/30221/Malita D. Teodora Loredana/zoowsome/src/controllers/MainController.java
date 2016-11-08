@@ -1,11 +1,20 @@
 package controllers;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLStreamException;
+
+import org.xml.sax.SAXException;
+
 import models.animlas.*;
 import models.employees.Caretaker;
+import models.employees.Employee;
 import repositories.AnimalRepository;
+import repositories.EmployeeRepository;
 import services.factories.animalFactory.AnimalFactory;
 import services.factories.animalFactory.Constants;
 import services.factories.animalFactory.InvalidSpeciesException;
@@ -22,6 +31,7 @@ public class MainController {
 		SpeciesFactory insectsFactory = abstractFactory.getSpeciesFactory(Constants.Species.Insects);
 		SpeciesFactory aquaticFactory = abstractFactory.getSpeciesFactory(Constants.Species.Aquatics);
 		Animal [] zoo=new Animal[50];
+		ArrayList<Animal> zooo = new ArrayList<Animal>();
 		Random rosu = new Random();
 		int counter;
 		for(counter=0;counter<50;counter++)
@@ -95,6 +105,7 @@ public class MainController {
 			}
 		}
 		Caretaker[] meal = new Caretaker[10000];
+		ArrayList<Employee> meals = new ArrayList<Employee>();
 		EmployeeAbstractFactory employeeFact = new EmployeeAbstractFactory();
 		CaretakersFactory caretakerFact = null;
 		try {
@@ -126,7 +137,36 @@ public class MainController {
 						System.out.printf("A caretaker took care of an %s.Yeeeee! \n",a.getClass().getSimpleName());
 				}
 			}
+		for(Animal a : zoo)
+			zooo.add(a);
+		for(Caretaker c: meal)
+			meals.add(c);
+		AnimalRepository aR = new AnimalRepository();
+		try 
+		{
+			aR.save(zooo);
 		}
+		catch (FileNotFoundException | XMLStreamException e) 
+		{
+			e.printStackTrace();
+		}
+		EmployeeRepository eR = new EmployeeRepository();
+		try 
+		{
+			eR.save(meals);
+		} catch (FileNotFoundException | XMLStreamException e) 
+		{
+			e.printStackTrace();
+		}
+		/*try //da o exceptie pe care nu stiu sa o rezolv 
+		{
+			zooo = aR.load();
+		} 
+		catch (ParserConfigurationException | SAXException | IOException e) 
+		{
+			e.printStackTrace();
+		}*/
+	}
 		
 
 }

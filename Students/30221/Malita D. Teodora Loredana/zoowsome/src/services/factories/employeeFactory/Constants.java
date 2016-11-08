@@ -1,7 +1,5 @@
 package services.factories.employeeFactory;
 
-import models.employees.Employee;
-
 public final class Constants {
 	public static final class Employees
 	{
