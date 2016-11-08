@@ -1,6 +1,7 @@
 package zoowsomeLucaAndrei;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Random;
 
 import animals.Animal;
@@ -13,6 +14,7 @@ import animals.Insect;
 import factories.AnimalFactory;
 import factories.Constants;
 import factories.SpeciesFactory;
+import repositories.AnimalRepository;
 
 public class MainController {
 	public static void main(String[] args) throws Exception {
@@ -21,6 +23,16 @@ public class MainController {
 		SpeciesFactory speciesFactory1 = abstractFactory.getSpeciesFactory(Constants.Species.Aquatics);
 		Animal a1 = speciesFactory1.getAnimal(Constants.Animals.Aquatics.KoiFish);
 		animals = MainController.randomise();
+	
+		AnimalRepository a2=new AnimalRepository();
+		ArrayList<Animal> animalsArray=new ArrayList<Animal>();
+		
+		for (int i=0; i<50; i++)
+			animalsArray.add(animals[i]);
+		
+		a2.save(animalsArray);
+		a2.load();
+		
 		for (int i = 0; i < 50; i++)
 			System.out.printf("We have an/a %s with %d legs!\n", animals[i].getName(), animals[i].getNrOfLegs());
 		Caretaker[] employee = new Caretaker[5];
@@ -53,6 +65,7 @@ public class MainController {
 			else
 				System.out.println("Animalul " + animals[k].getName() + " nu a fost ingrijit");
 		}
+		
 	}
 
 	public static Animal[] randomise() throws Exception {
