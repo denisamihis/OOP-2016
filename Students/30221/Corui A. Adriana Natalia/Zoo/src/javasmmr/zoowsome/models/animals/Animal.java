@@ -3,14 +3,20 @@ package javasmmr.zoowsome.models.animals;
 //import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-import javasmmr.zoowsome.models.animals.Interface.Killer;
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
 
-abstract public class Animal implements Killer {
+import org.w3c.dom.Element;
+
+import javasmmr.zoowesome.models.interfaces.XML_Parsable;
+import javasmmr.zoowsome.models.animals.Interface.Killer;
+import javasmmr.zoowesome.repositories.AnimalRepository;
+abstract public class Animal implements Killer,XML_Parsable {
 	
 	private String name;
 	private int nrOfLegs;
-	final double maintCosts;
-	final double precDanger;
+	private double maintCosts;
+	private double precDanger;
 	private boolean takenCareOf=false;
 	public Animal(double maintCosts,double precDanger)
 	{
@@ -45,6 +51,14 @@ abstract public class Animal implements Killer {
 	{
 		return maintCosts;
 	}
+	public void setMaintCosts(double maintCosts)
+	{
+		this.maintCosts=maintCosts;
+	}
+	public void setPrecDanger(double precDanger)
+	{
+		this.precDanger=precDanger;
+	}
 	@Override
 	public boolean kill()
 	{
@@ -54,5 +68,22 @@ abstract public class Animal implements Killer {
 		if(randNr < precDanger)
 			return true;
 		return false;
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		AnimalRepository.createNode(eventWriter, "nrOfLegs", String.valueOf(this.nrOfLegs));
+		AnimalRepository.createNode(eventWriter, "name", String.valueOf(this.name));
+		AnimalRepository.createNode(eventWriter, "maitCosts", String.valueOf(this.maintCosts));
+		AnimalRepository.createNode(eventWriter, "precDanger", String.valueOf(this.precDanger));
+		AnimalRepository.createNode(eventWriter, "takenCareOf", String.valueOf(this.takenCareOf));
+	}
+	public void decodeFromXml(Element element)
+	{
+		setNrOfLegs(Integer.valueOf(element.getElementsByTagName("nrOfLegs").item(0).getTextContent()));
+		setName(element.getElementsByTagName("name").item(0).getTextContent());
+		setMaintCosts(Double.valueOf(element.getElementsByTagName("maintCosts").item(0).getTextContent()));
+		setPrecDanger(Double.valueOf(element.getElementsByTagName("precDanger").item(0).getTextContent()));
+		setTakenCareOf(Boolean.valueOf(element.getElementsByTagName("takenCareOf").item(0).getTextContent()));
+
 	}
 }
