@@ -1,5 +1,13 @@
 package models.animlas;
 
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import models.animlas.Aquatic.wT;
+import repositories.AnimalRepository;
+
 public abstract class Bird extends Animal {
 	protected boolean migrates;
 	protected float altitude;
@@ -7,6 +15,19 @@ public abstract class Bird extends Animal {
 		super(name,nrOfLegs, maintenanceCost, dangPerc);
 		this.migrates = migrates;
 		this.altitude = altitude;
+	}
+	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
+		try {
+			super.encodeToXml(eventWriter);
+		} catch (XMLStreamExceptionMLStreamException e) {
+			e.printStackTrace();
+		}
+		AnimalRepository.createNode(eventWriter,"migrates",String.valueOf(getIfMigrates()));
+		AnimalRepository.createNode(eventWriter, "altitude", String.valueOf(getAltitude()));
+	}
+	public void decodeFromXml(Element element){
+		setIfMigrates(Boolean.valueOf(element.getElementsByTagName("migrates").item(0).getTextContent()));
+		setAltitude(Float.valueOf(element.getElementsByTagName("altitude").item(0).getTextContent()));
 	}
 
 	public boolean getIfMigrates()
