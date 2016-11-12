@@ -1,0 +1,12 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>MiniT-rex</name>
+	<maintenanceCost>5.0</maintenanceCost>
+	<percKill>0.5</percKill>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<avgFlightAltitude>1</avgFlightAltitude>
+	<DISCRIMINANT>HEN</DISCRIMINANT>
+</ANIMAL>
+</content>
