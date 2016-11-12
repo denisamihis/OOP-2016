@@ -1,0 +1,162 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Michael</name>
+	<id>1303633490211976991</id>
+	<salary>11821</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Monica</name>
+	<id>8824376704620985426</id>
+	<salary>8200</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Jim</name>
+	<id>5681780662426110268</id>
+	<salary>13081</salary>
+	<isDead>false</isDead>
+	<workingHours>9.159793540114151</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tyler</name>
+	<id>3281413679159794572</id>
+	<salary>14503</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Andy</name>
+	<id>3751625548372802114</id>
+	<salary>7912</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Charlie</name>
+	<id>393499810410436262</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aria</name>
+	<id>8577134106197028826</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>9.652236757127152</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Barney</name>
+	<id>3748747878601478650</id>
+	<salary>12965</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Michael</name>
+	<id>1445103551927247984</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aria</name>
+	<id>1552512939711690735</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.015790828630577</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Michael</name>
+	<id>5679247471052032709</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Zack</name>
+	<id>3886439670799791514</id>
+	<salary>12460</salary>
+	<isDead>false</isDead>
+	<workingHours>8.817552914811863</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Stefan</name>
+	<id>6303454717399034187</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bob</name>
+	<id>6147650414346078679</id>
+	<salary>11080</salary>
+	<isDead>false</isDead>
+	<workingHours>9.116290733703249</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alex</name>
+	<id>5118215427204430208</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aria</name>
+	<id>7701276313291352426</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Felicia</name>
+	<id>2721642632812941672</id>
+	<salary>9494</salary>
+	<isDead>false</isDead>
+	<workingHours>8.600243259527318</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bob</name>
+	<id>125512285771437812</id>
+	<salary>8308</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Jony</name>
+	<id>9008053201401103832</id>
+	<salary>13199</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Barney</name>
+	<id>4444813302625891893</id>
+	<salary>14198</salary>
+	<isDead>false</isDead>
+	<workingHours>8.157279366972812</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+</content>
