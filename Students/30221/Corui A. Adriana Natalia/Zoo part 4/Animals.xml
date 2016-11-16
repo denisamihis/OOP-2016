@@ -1,0 +1,31 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>duck</name>
+	<maitCosts>2.1</maitCosts>
+	<precDanger>0.1</precDanger>
+	<takenCareOf>true</takenCareOf>
+	<avgFlyAltitude>20</avgFlyAltitude>
+	<migrates>false</migrates>
+	<DISCRIMINANT>DUCK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>turtle</name>
+	<maitCosts>1.3</maitCosts>
+	<precDanger>0.1</precDanger>
+	<takenCareOf>true</takenCareOf>
+	<layEggs>true</layEggs>
+	<DISCRIMINANT>TURTLE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>spider</name>
+	<maitCosts>1.7</maitCosts>
+	<precDanger>0.9</precDanger>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>SPIDER</DISCRIMINANT>
+</ANIMAL>
+</content>
