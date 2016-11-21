@@ -1,9 +1,18 @@
 package controllers;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Random;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLStreamException;
+
+import org.xml.sax.SAXException;
 
 import models.animals.*;
 import models.employees.*;
+import repositories.*;
 import services.factories.*;
 import services.factories.animalFactory.*;
 import services.factories.employeeFactory.*;
@@ -16,20 +25,45 @@ public class MainController {
 		String result;
 		zoo = createZoo(50);
 		staff = hireCaretakers(150);
+		ArrayList<Animal> zooo = new ArrayList<Animal>();
+		ArrayList<Employees> stafff= new ArrayList<Employees>();
 		System.out.println("So, the animals in this amazing zoo are: ");
 		for (count = 0; count < zoo.length; count ++)
+		{
 			System.out.printf("A %s named: %s \n", zoo[count].getClass().getSimpleName(), zoo[count].getName());
+			zooo.add(zoo[count]);
+		}
 		System.out.println("Aaaaand the caretakers working in this amazing zoo are: ");
 		for (count = 0; count < staff.length; count++)
-			System.out.printf("%s \n", staff[count].getName());
-		// russian roulette :) one single flamingo killed 3 employees during testing, one tiger killed 23, and for 150 employees, 32 survived the day
-		for (Caretaker c : staff)
 		{
-			for (Animal a : zoo)
+			System.out.printf("%s \n", staff[count].getName());
+			stafff.add(staff[count]);
+		}
+		AnimalRepository ar = new AnimalRepository();
+		EmployeeRepository er = new EmployeeRepository();
+		try {
+			ar.save(zooo);
+			er.save(stafff);
+		} catch (FileNotFoundException | XMLStreamException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			zooo = ar.load();
+			stafff = er.load();
+		} catch (ParserConfigurationException | SAXException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		// russian roulette :) one single flamingo killed 3 employees during testing, one tiger killed 23, and for 150 employees, 32 survived the day
+		for (Employees c : stafff)
+		{
+			for (Animal a : zooo)
 			{
 				if (!c.getIsDead() && !a.getTakenCareOf())
 				{
-					result = c.takeCareOf(a);
+					result = ((Caretaker)c).takeCareOf(a);
 					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED))
 					{
 						c.setIsDead(true);

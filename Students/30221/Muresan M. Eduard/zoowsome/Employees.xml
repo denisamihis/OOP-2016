@@ -1,0 +1,1202 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>1958366692037</id>
+	<salary>3798</salary>
+	<isDead>false</isDead>
+	<workingHours>12.695161618661558</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>9261443364210</id>
+	<salary>2975</salary>
+	<isDead>false</isDead>
+	<workingHours>0.8248607460733831</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactusel</name>
+	<id>5808066901254</id>
+	<salary>1771</salary>
+	<isDead>false</isDead>
+	<workingHours>9.620920635856077</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eduard</name>
+	<id>6222858642337</id>
+	<salary>4202</salary>
+	<isDead>false</isDead>
+	<workingHours>5.825049334473034</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Pisoias</name>
+	<id>8520908497880</id>
+	<salary>5676</salary>
+	<isDead>false</isDead>
+	<workingHours>3.7965724359964197</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>7596280934390</id>
+	<salary>2535</salary>
+	<isDead>false</isDead>
+	<workingHours>12.463587265450826</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ion</name>
+	<id>9994870163177</id>
+	<salary>5111</salary>
+	<isDead>false</isDead>
+	<workingHours>3.1748101920915057</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>6082399597702</id>
+	<salary>5541</salary>
+	<isDead>false</isDead>
+	<workingHours>13.518963364637013</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dan</name>
+	<id>6057725356290</id>
+	<salary>3006</salary>
+	<isDead>false</isDead>
+	<workingHours>5.995580220434696</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>8408450187675</id>
+	<salary>5861</salary>
+	<isDead>false</isDead>
+	<workingHours>17.612328666283343</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dan</name>
+	<id>5104668063347</id>
+	<salary>3643</salary>
+	<isDead>false</isDead>
+	<workingHours>7.440540688422033</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>ABCescu</name>
+	<id>6844501919372</id>
+	<salary>4439</salary>
+	<isDead>false</isDead>
+	<workingHours>6.52672145430525</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gheorghe</name>
+	<id>6875836533670</id>
+	<salary>4340</salary>
+	<isDead>false</isDead>
+	<workingHours>11.62098008482452</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>3688643538625</id>
+	<salary>5666</salary>
+	<isDead>false</isDead>
+	<workingHours>10.029051843968563</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Unghiuta</name>
+	<id>4995002275983</id>
+	<salary>1820</salary>
+	<isDead>false</isDead>
+	<workingHours>3.512810920987538</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>7704303105102</id>
+	<salary>2969</salary>
+	<isDead>false</isDead>
+	<workingHours>7.4821552403093765</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>1141653600215</id>
+	<salary>4993</salary>
+	<isDead>false</isDead>
+	<workingHours>1.5909904091698936</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>5406481375008</id>
+	<salary>4029</salary>
+	<isDead>false</isDead>
+	<workingHours>3.4791282117780504</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>9165734143983</id>
+	<salary>5707</salary>
+	<isDead>false</isDead>
+	<workingHours>16.614471882082707</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>5361966785420</id>
+	<salary>1970</salary>
+	<isDead>false</isDead>
+	<workingHours>17.010240103804684</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Unghiuta</name>
+	<id>8179542549954</id>
+	<salary>4279</salary>
+	<isDead>false</isDead>
+	<workingHours>1.7905505415784804</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ion</name>
+	<id>7274762306093</id>
+	<salary>3120</salary>
+	<isDead>false</isDead>
+	<workingHours>7.919427264052896</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dan</name>
+	<id>8334471987042</id>
+	<salary>2421</salary>
+	<isDead>false</isDead>
+	<workingHours>2.072013592916237</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>1761110102420</id>
+	<salary>4545</salary>
+	<isDead>false</isDead>
+	<workingHours>6.44427656746294</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Pisoias</name>
+	<id>4294626456156</id>
+	<salary>2594</salary>
+	<isDead>false</isDead>
+	<workingHours>7.293470201233936</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>7370575408524</id>
+	<salary>2140</salary>
+	<isDead>false</isDead>
+	<workingHours>1.8810285537529667</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>7581372236319</id>
+	<salary>3229</salary>
+	<isDead>false</isDead>
+	<workingHours>1.4695716993050512</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eduard</name>
+	<id>9121906978086</id>
+	<salary>5263</salary>
+	<isDead>false</isDead>
+	<workingHours>4.680856406318262</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alin</name>
+	<id>6364563396641</id>
+	<salary>6135</salary>
+	<isDead>false</isDead>
+	<workingHours>17.234187298722524</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gheorghe</name>
+	<id>1789396720607</id>
+	<salary>5174</salary>
+	<isDead>false</isDead>
+	<workingHours>17.461975442311427</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>2648200591215</id>
+	<salary>6222</salary>
+	<isDead>false</isDead>
+	<workingHours>11.672160152426233</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Betmen</name>
+	<id>3454381781184</id>
+	<salary>4722</salary>
+	<isDead>false</isDead>
+	<workingHours>16.626751294392594</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<id>4613912078458</id>
+	<salary>5287</salary>
+	<isDead>false</isDead>
+	<workingHours>4.635128671196491</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>5909137136035</id>
+	<salary>2517</salary>
+	<isDead>false</isDead>
+	<workingHours>10.67560601679275</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>3777418289864</id>
+	<salary>2788</salary>
+	<isDead>false</isDead>
+	<workingHours>8.934419852266709</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>7056074016201</id>
+	<salary>3147</salary>
+	<isDead>false</isDead>
+	<workingHours>11.730047222651915</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>3654224899738</id>
+	<salary>4983</salary>
+	<isDead>false</isDead>
+	<workingHours>5.826209292190841</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>4238277051698</id>
+	<salary>4683</salary>
+	<isDead>false</isDead>
+	<workingHours>7.397456782246339</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Paiut</name>
+	<id>5454713085016</id>
+	<salary>2978</salary>
+	<isDead>false</isDead>
+	<workingHours>14.22189634696716</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>4693996136866</id>
+	<salary>2971</salary>
+	<isDead>false</isDead>
+	<workingHours>17.219285215213585</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Teodora</name>
+	<id>1354196803268</id>
+	<salary>2757</salary>
+	<isDead>false</isDead>
+	<workingHours>14.918005280600308</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Grigore</name>
+	<id>3246857935660</id>
+	<salary>2881</salary>
+	<isDead>false</isDead>
+	<workingHours>14.67964355134563</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bulina</name>
+	<id>5248201929247</id>
+	<salary>5362</salary>
+	<isDead>false</isDead>
+	<workingHours>10.962207218948173</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>7184081185351</id>
+	<salary>2944</salary>
+	<isDead>false</isDead>
+	<workingHours>10.590688295294607</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Unghiuta</name>
+	<id>4516465701623</id>
+	<salary>6007</salary>
+	<isDead>false</isDead>
+	<workingHours>14.199101820153041</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<id>9627462068906</id>
+	<salary>5795</salary>
+	<isDead>false</isDead>
+	<workingHours>18.676560435489446</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mercedesa</name>
+	<id>7349063372349</id>
+	<salary>5423</salary>
+	<isDead>false</isDead>
+	<workingHours>14.75240669288734</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bulina</name>
+	<id>5568171311641</id>
+	<salary>4370</salary>
+	<isDead>false</isDead>
+	<workingHours>16.658946418113707</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>2755989604093</id>
+	<salary>3089</salary>
+	<isDead>false</isDead>
+	<workingHours>17.574871287215288</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>7056631948079</id>
+	<salary>1845</salary>
+	<isDead>false</isDead>
+	<workingHours>7.126715993488169</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>6740226140646</id>
+	<salary>2954</salary>
+	<isDead>false</isDead>
+	<workingHours>0.14332695627274228</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>9065337097184</id>
+	<salary>3923</salary>
+	<isDead>false</isDead>
+	<workingHours>7.359072079057166</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>2024927917911</id>
+	<salary>1658</salary>
+	<isDead>false</isDead>
+	<workingHours>9.083518950719032</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>2583211956688</id>
+	<salary>6073</salary>
+	<isDead>false</isDead>
+	<workingHours>12.38586957650276</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Betmen</name>
+	<id>7573393882268</id>
+	<salary>5595</salary>
+	<isDead>false</isDead>
+	<workingHours>8.334160754787302</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Betmen</name>
+	<id>6541048838547</id>
+	<salary>4672</salary>
+	<isDead>false</isDead>
+	<workingHours>3.1212643523112664</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>5894768979520</id>
+	<salary>4133</salary>
+	<isDead>false</isDead>
+	<workingHours>15.452361124987608</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>1592460672796</id>
+	<salary>4676</salary>
+	<isDead>false</isDead>
+	<workingHours>19.616160700895787</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Semaforela</name>
+	<id>6342552618623</id>
+	<salary>3716</salary>
+	<isDead>false</isDead>
+	<workingHours>6.115071421792225</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bulina</name>
+	<id>2556894822149</id>
+	<salary>2961</salary>
+	<isDead>false</isDead>
+	<workingHours>12.463012123968324</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>9317099066402</id>
+	<salary>2206</salary>
+	<isDead>false</isDead>
+	<workingHours>15.771261081559128</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>7736299072110</id>
+	<salary>5833</salary>
+	<isDead>false</isDead>
+	<workingHours>0.4745840341987132</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>ABCescu</name>
+	<id>4045570487250</id>
+	<salary>3369</salary>
+	<isDead>false</isDead>
+	<workingHours>3.5242428648891604</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>8852260800722</id>
+	<salary>4440</salary>
+	<isDead>false</isDead>
+	<workingHours>0.1200256426678834</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ion</name>
+	<id>3183520982190</id>
+	<salary>5291</salary>
+	<isDead>false</isDead>
+	<workingHours>1.2476724053195989</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eduard</name>
+	<id>8027341537527</id>
+	<salary>2500</salary>
+	<isDead>false</isDead>
+	<workingHours>18.81521641907432</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ion</name>
+	<id>4142345553876</id>
+	<salary>3615</salary>
+	<isDead>false</isDead>
+	<workingHours>17.325566500104877</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ioana</name>
+	<id>7532749975529</id>
+	<salary>1857</salary>
+	<isDead>false</isDead>
+	<workingHours>2.559906743207636</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>5170728330830</id>
+	<salary>4689</salary>
+	<isDead>false</isDead>
+	<workingHours>13.069864161099954</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>6965765393691</id>
+	<salary>2628</salary>
+	<isDead>false</isDead>
+	<workingHours>3.506488026731697</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ioana</name>
+	<id>2571037069763</id>
+	<salary>5931</salary>
+	<isDead>false</isDead>
+	<workingHours>17.811971953436252</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ion</name>
+	<id>9953220245334</id>
+	<salary>6151</salary>
+	<isDead>false</isDead>
+	<workingHours>19.670757196508802</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Grigore</name>
+	<id>5352990362074</id>
+	<salary>5167</salary>
+	<isDead>false</isDead>
+	<workingHours>14.858146781216586</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Grigore</name>
+	<id>7764447934866</id>
+	<salary>2767</salary>
+	<isDead>false</isDead>
+	<workingHours>12.597406498225677</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>7370174854271</id>
+	<salary>4081</salary>
+	<isDead>false</isDead>
+	<workingHours>18.135494271790257</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>5466209136965</id>
+	<salary>3882</salary>
+	<isDead>false</isDead>
+	<workingHours>15.19906585564716</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eduard</name>
+	<id>5436513644927</id>
+	<salary>2185</salary>
+	<isDead>false</isDead>
+	<workingHours>15.9191379609251</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>1542324563001</id>
+	<salary>5763</salary>
+	<isDead>false</isDead>
+	<workingHours>13.965791789354379</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>2281647500945</id>
+	<salary>2565</salary>
+	<isDead>false</isDead>
+	<workingHours>12.80395294976899</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>8864041197431</id>
+	<salary>4255</salary>
+	<isDead>false</isDead>
+	<workingHours>15.022960372265207</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Grigore</name>
+	<id>1894423713076</id>
+	<salary>6139</salary>
+	<isDead>false</isDead>
+	<workingHours>0.07587401349865519</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactutelutisorulet</name>
+	<id>2551541441277</id>
+	<salary>1951</salary>
+	<isDead>false</isDead>
+	<workingHours>5.9085259301967525</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactutelutisorulet</name>
+	<id>7295410565663</id>
+	<salary>2587</salary>
+	<isDead>false</isDead>
+	<workingHours>13.90783103002333</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>4163797584546</id>
+	<salary>4743</salary>
+	<isDead>false</isDead>
+	<workingHours>8.316802615867243</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mercedesa</name>
+	<id>5314022498164</id>
+	<salary>1680</salary>
+	<isDead>false</isDead>
+	<workingHours>18.178427655942656</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dan</name>
+	<id>4118360213854</id>
+	<salary>2762</salary>
+	<isDead>false</isDead>
+	<workingHours>2.4690489645040765</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gheorghe</name>
+	<id>9729557290081</id>
+	<salary>4237</salary>
+	<isDead>false</isDead>
+	<workingHours>18.01404850618801</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>5877561345474</id>
+	<salary>1433</salary>
+	<isDead>false</isDead>
+	<workingHours>1.0164588294352934</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>6449394795106</id>
+	<salary>1633</salary>
+	<isDead>false</isDead>
+	<workingHours>13.352084249955329</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>ABCescu</name>
+	<id>2275261884747</id>
+	<salary>3084</salary>
+	<isDead>false</isDead>
+	<workingHours>1.3431848316411887</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactutelutisorulet</name>
+	<id>1854283842720</id>
+	<salary>1918</salary>
+	<isDead>false</isDead>
+	<workingHours>9.399240405514277</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>6778356775625</id>
+	<salary>5682</salary>
+	<isDead>false</isDead>
+	<workingHours>9.992574148813137</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>7661851062423</id>
+	<salary>4566</salary>
+	<isDead>false</isDead>
+	<workingHours>11.179247282239682</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Paiut</name>
+	<id>8121703751855</id>
+	<salary>4742</salary>
+	<isDead>false</isDead>
+	<workingHours>2.5570138417705275</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>8955170089272</id>
+	<salary>1263</salary>
+	<isDead>false</isDead>
+	<workingHours>3.1846848644345433</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>8156382896396</id>
+	<salary>5557</salary>
+	<isDead>false</isDead>
+	<workingHours>6.906667012048154</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>8666674584953</id>
+	<salary>4069</salary>
+	<isDead>false</isDead>
+	<workingHours>4.665452568273259</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>4550566507270</id>
+	<salary>4376</salary>
+	<isDead>false</isDead>
+	<workingHours>12.322823348399387</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>ABCescu</name>
+	<id>3870979502955</id>
+	<salary>1955</salary>
+	<isDead>false</isDead>
+	<workingHours>19.468538981867482</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alin</name>
+	<id>3997313014389</id>
+	<salary>2050</salary>
+	<isDead>false</isDead>
+	<workingHours>19.85767387735806</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactutelutisorulet</name>
+	<id>2762084288826</id>
+	<salary>4927</salary>
+	<isDead>false</isDead>
+	<workingHours>1.9039352218087435</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ioana</name>
+	<id>6561416769411</id>
+	<salary>2212</salary>
+	<isDead>false</isDead>
+	<workingHours>16.0783837568989</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mercedesa</name>
+	<id>7003662501412</id>
+	<salary>3270</salary>
+	<isDead>false</isDead>
+	<workingHours>7.841697693804139</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>7547619936555</id>
+	<salary>3262</salary>
+	<isDead>false</isDead>
+	<workingHours>0.4388270092297364</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<id>8487843775048</id>
+	<salary>2944</salary>
+	<isDead>false</isDead>
+	<workingHours>17.573515871838644</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Pisoias</name>
+	<id>7783775843480</id>
+	<salary>2045</salary>
+	<isDead>false</isDead>
+	<workingHours>14.419362225978867</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>8674149363991</id>
+	<salary>2455</salary>
+	<isDead>false</isDead>
+	<workingHours>9.333336862041394</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Morcovel</name>
+	<id>7730470218219</id>
+	<salary>3629</salary>
+	<isDead>false</isDead>
+	<workingHours>14.976364462131338</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Betmen</name>
+	<id>4233842881921</id>
+	<salary>4030</salary>
+	<isDead>false</isDead>
+	<workingHours>5.084603851279611</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>6698523481555</id>
+	<salary>3682</salary>
+	<isDead>false</isDead>
+	<workingHours>1.737867826137673</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>3100895611324</id>
+	<salary>6147</salary>
+	<isDead>false</isDead>
+	<workingHours>9.142618039042787</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<id>5130748177240</id>
+	<salary>3146</salary>
+	<isDead>false</isDead>
+	<workingHours>3.9219674869715755</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Inimioara</name>
+	<id>9978455912012</id>
+	<salary>4121</salary>
+	<isDead>false</isDead>
+	<workingHours>16.819963508829893</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>1485608523490</id>
+	<salary>2588</salary>
+	<isDead>false</isDead>
+	<workingHours>14.009976228348831</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>2662829299356</id>
+	<salary>1778</salary>
+	<isDead>false</isDead>
+	<workingHours>11.781578778008301</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bulina</name>
+	<id>9798282682546</id>
+	<salary>3179</salary>
+	<isDead>false</isDead>
+	<workingHours>18.62142143999383</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>8956675642367</id>
+	<salary>2910</salary>
+	<isDead>false</isDead>
+	<workingHours>16.137965258921906</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Semaforela</name>
+	<id>8065195153298</id>
+	<salary>1579</salary>
+	<isDead>false</isDead>
+	<workingHours>4.309510507492765</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mercedesa</name>
+	<id>9630477330712</id>
+	<salary>2664</salary>
+	<isDead>false</isDead>
+	<workingHours>15.25912787948176</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>9064214876588</id>
+	<salary>2583</salary>
+	<isDead>false</isDead>
+	<workingHours>15.371193394296725</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>6860939747490</id>
+	<salary>6020</salary>
+	<isDead>false</isDead>
+	<workingHours>17.8120517065939</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Eduard</name>
+	<id>4243801215109</id>
+	<salary>3552</salary>
+	<isDead>false</isDead>
+	<workingHours>7.469844382810479</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Semaforela</name>
+	<id>5694789952658</id>
+	<salary>1953</salary>
+	<isDead>false</isDead>
+	<workingHours>15.18360138717536</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>7187042982384</id>
+	<salary>3272</salary>
+	<isDead>false</isDead>
+	<workingHours>2.533961234706996</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Pernuta</name>
+	<id>1611326143880</id>
+	<salary>1609</salary>
+	<isDead>false</isDead>
+	<workingHours>10.718055986542227</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Aurel</name>
+	<id>9417227728679</id>
+	<salary>4832</salary>
+	<isDead>false</isDead>
+	<workingHours>10.667878910822475</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Iepurasul</name>
+	<id>7477553001296</id>
+	<salary>6181</salary>
+	<isDead>false</isDead>
+	<workingHours>8.79443859181325</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>6768880517484</id>
+	<salary>1439</salary>
+	<isDead>false</isDead>
+	<workingHours>5.338854769218447</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Teodora</name>
+	<id>3664087430450</id>
+	<salary>2033</salary>
+	<isDead>false</isDead>
+	<workingHours>18.657503433990335</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>1377004273665</id>
+	<salary>6038</salary>
+	<isDead>false</isDead>
+	<workingHours>13.251655533043829</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ioana</name>
+	<id>3180186809518</id>
+	<salary>3095</salary>
+	<isDead>false</isDead>
+	<workingHours>0.7127304270704565</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Pisoias</name>
+	<id>7706592006957</id>
+	<salary>3017</salary>
+	<isDead>false</isDead>
+	<workingHours>0.5905219374413836</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Semaforela</name>
+	<id>6712476124582</id>
+	<salary>5523</salary>
+	<isDead>false</isDead>
+	<workingHours>15.464399053692285</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Razvan</name>
+	<id>4587776899500</id>
+	<salary>6201</salary>
+	<isDead>false</isDead>
+	<workingHours>18.565030935368593</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gentutica</name>
+	<id>8096474287132</id>
+	<salary>5014</salary>
+	<isDead>false</isDead>
+	<workingHours>14.960628551861515</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>ABCescu</name>
+	<id>6981731427712</id>
+	<salary>2211</salary>
+	<isDead>false</isDead>
+	<workingHours>5.046504264917002</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Airanmen</name>
+	<id>5112918157391</id>
+	<salary>1349</salary>
+	<isDead>false</isDead>
+	<workingHours>3.6388884754489945</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Teodora</name>
+	<id>4205627503578</id>
+	<salary>2469</salary>
+	<isDead>false</isDead>
+	<workingHours>15.521814300635802</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Umbrelusa</name>
+	<id>6906333903712</id>
+	<salary>5549</salary>
+	<isDead>false</isDead>
+	<workingHours>11.553673109361702</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gheorghe</name>
+	<id>2121967153790</id>
+	<salary>1993</salary>
+	<isDead>false</isDead>
+	<workingHours>8.311405851989525</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Semaforela</name>
+	<id>5525859148995</id>
+	<salary>3513</salary>
+	<isDead>false</isDead>
+	<workingHours>5.846100538633308</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bulina</name>
+	<id>9984279333446</id>
+	<salary>5694</salary>
+	<isDead>false</isDead>
+	<workingHours>13.912453925106794</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Paiut</name>
+	<id>1647019101773</id>
+	<salary>2980</salary>
+	<isDead>false</isDead>
+	<workingHours>18.30654255915628</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Tobisoare</name>
+	<id>7980190648476</id>
+	<salary>3315</salary>
+	<isDead>false</isDead>
+	<workingHours>0.015529753845834993</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alin</name>
+	<id>1776590167932</id>
+	<salary>3143</salary>
+	<isDead>false</isDead>
+	<workingHours>14.3151123229831</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ursulet-Pufos-Roz</name>
+	<id>1156428497614</id>
+	<salary>2964</salary>
+	<isDead>false</isDead>
+	<workingHours>15.063440297169201</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cactusel</name>
+	<id>4013489936780</id>
+	<salary>2079</salary>
+	<isDead>false</isDead>
+	<workingHours>9.848903082063794</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mingiuta</name>
+	<id>5794150409299</id>
+	<salary>5736</salary>
+	<isDead>false</isDead>
+	<workingHours>15.543485221759767</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mercedesa</name>
+	<id>5909276753913</id>
+	<salary>5055</salary>
+	<isDead>false</isDead>
+	<workingHours>10.696575722773332</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Teodora</name>
+	<id>4184208484692</id>
+	<salary>5436</salary>
+	<isDead>false</isDead>
+	<workingHours>11.384961457703394</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+</content>

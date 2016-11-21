@@ -1,5 +1,12 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
 public abstract class Bird extends Animal{
 	protected boolean migrates;
 	protected int avgFlightAltitude;
@@ -24,5 +31,17 @@ public abstract class Bird extends Animal{
 	public void setAvgFlightAltitude(int avgFlightAltitude)
 	{
 		this.avgFlightAltitude = avgFlightAltitude;
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"migrates", String.valueOf(this.migrates));
+		createNode(eventWriter,"avgFlightAltitude", String.valueOf(this.avgFlightAltitude));
+	}
+	public void decodeFromXML( Element element) 
+	{
+		super.decodeFromXML(element);
+		setAvgFlightAltitude(Integer.valueOf(element.getElementsByTagName("avgFlightAltitude").item(0).getTextContent()));
+		setMigrates (Boolean.valueOf(element.getElementsByTagName("migrates").item(0).getTextContent()));
 	}
 }

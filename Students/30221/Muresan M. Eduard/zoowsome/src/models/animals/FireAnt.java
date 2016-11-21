@@ -1,7 +1,16 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
 import java.util.Random;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import services.factories.Constants;
 
 public class FireAnt extends Insect{
 	enum Role{queen, drone, other};
@@ -52,5 +61,16 @@ public class FireAnt extends Insect{
 		default:
 			role = Role.other;
 		}
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"role", String.valueOf(this.role));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Insects.FireAnt);
+	}
+	public void decodeFromXML(Element element) 
+	{
+		super.decodeFromXML(element);
+		setRole(Role.valueOf(element.getElementsByTagName("role").item(0).getTextContent()));
 	}
 }

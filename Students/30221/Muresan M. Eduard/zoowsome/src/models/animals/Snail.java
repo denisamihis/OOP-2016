@@ -1,6 +1,15 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import services.factories.Constants;
 
 public class Snail extends Insect{
 	private int shellLength;
@@ -31,5 +40,16 @@ public class Snail extends Insect{
 	public void setShellLength(int shellLength)
 	{
 		this.shellLength = shellLength;
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"shellLength", String.valueOf(this.shellLength));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Insects.Snail);
+	}
+	public void decodeFromXML(Element element) 
+	{
+		super.decodeFromXML(element);
+		setShellLength(Integer.valueOf(element.getElementsByTagName("shellLength").item(0).getTextContent()));
 	}
 }

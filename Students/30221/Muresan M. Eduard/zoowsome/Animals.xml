@@ -1,0 +1,533 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Paiut</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Cactusel</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>IGUANA</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>0.5</maintenanceCost>
+	<nrOfLegs>6</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Teodora</name>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<jawsLength>4</jawsLength>
+	<DISCRIMINANT>STAG BEETLE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Teodora</name>
+	<normalBodyTemp>36.8</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Macropus Antilopinus</specie>
+	<DISCRIMINANT>KANGAROO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Morcovel</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>IGUANA</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Teodora</name>
+	<normalBodyTemp>36.8</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Macropus Antilopinus</specie>
+	<DISCRIMINANT>KANGAROO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.3</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Semaforela</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<headInSand>true</headInSand>
+	<DISCRIMINANT>OSTRICH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.05</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>1</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Unghiuta</name>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<shellLength>5</shellLength>
+	<DISCRIMINANT>SNAIL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Unghiuta</name>
+	<laysEggs>true</laysEggs>
+	<length>35</length>
+	<DISCRIMINANT>ALIGATOR</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Bulina</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.9</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Pisoias</name>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Siberian Tiger</specie>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.6</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Mercedesa</name>
+	<avgSwimDepth>80</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<stingerLength>7</stingerLength>
+	<DISCRIMINANT>STINGRAY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.7</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Iepurasul</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>KOMODO DRAGON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.7</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Ursulet-Pufos-Roz</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>KOMODO DRAGON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>0.5</maintenanceCost>
+	<nrOfLegs>6</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Iepurasul</name>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<jawsLength>4</jawsLength>
+	<DISCRIMINANT>STAG BEETLE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Teodora</name>
+	<laysEggs>true</laysEggs>
+	<length>32</length>
+	<DISCRIMINANT>ALIGATOR</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>1.15</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Tobisoare</name>
+	<normalBodyTemp>37.0</normalBodyTemp>
+	<percBodyHair>0.99</percBodyHair>
+	<shape>Gopher shape</shape>
+	<DISCRIMINANT>GOPHER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Pisoias</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.3</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Teodora</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<headInSand>false</headInSand>
+	<DISCRIMINANT>OSTRICH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Unghiuta</name>
+	<avgSwimDepth>30</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<biteWidth>71.23696</biteWidth>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.05</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>1</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Cactutelutisorulet</name>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<shellLength>10</shellLength>
+	<DISCRIMINANT>SNAIL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>ABCescu</name>
+	<normalBodyTemp>36.8</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Macropus Antilopinus</specie>
+	<DISCRIMINANT>KANGAROO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.9</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Paiut</name>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Siberian Tiger</specie>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.3</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Morcovel</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<headInSand>true</headInSand>
+	<DISCRIMINANT>OSTRICH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Gheorghe</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<color>java.awt.Color[r=0,g=255,b=0]</color>
+	<DISCRIMINANT>DUCK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.9</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Ion</name>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Siberian Tiger</specie>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.05</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>1</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>ABCescu</name>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<shellLength>5</shellLength>
+	<DISCRIMINANT>SNAIL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Alin</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>IGUANA</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Alin</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<color>java.awt.Color[r=0,g=255,b=0]</color>
+	<DISCRIMINANT>DUCK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Aurel</name>
+	<normalBodyTemp>36.8</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<specie>Macropus Antilopinus</specie>
+	<DISCRIMINANT>KANGAROO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Pernuta</name>
+	<laysEggs>true</laysEggs>
+	<length>51</length>
+	<DISCRIMINANT>ALIGATOR</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Inimioara</name>
+	<avgSwimDepth>30</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<biteWidth>21.358082</biteWidth>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.3</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Gentutica</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<headInSand>true</headInSand>
+	<DISCRIMINANT>OSTRICH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Morcovel</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Bulina</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.3</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Grigore</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<headInSand>true</headInSand>
+	<DISCRIMINANT>OSTRICH</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Gentutica</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<specie>Greater Flamingo</specie>
+	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>1.0</maintenanceCost>
+	<nrOfLegs>1</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Umbrelusa</name>
+	<avgSwimDepth>20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<specie>Weedy Sea Dragon</specie>
+	<DISCRIMINANT>SEAHORSE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Cactutelutisorulet</name>
+	<avgSwimDepth>30</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<biteWidth>58.304626</biteWidth>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.7</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Bulina</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>KOMODO DRAGON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.6</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Gentutica</name>
+	<avgSwimDepth>80</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<stingerLength>15</stingerLength>
+	<DISCRIMINANT>STINGRAY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Umbrelusa</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<specie>Greater Flamingo</specie>
+	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Bulina</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<color>java.awt.Color[r=0,g=255,b=0]</color>
+	<DISCRIMINANT>DUCK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.7</dangerPerc>
+	<maintenanceCost>4.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Pisoias</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>KOMODO DRAGON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.2</dangerPerc>
+	<maintenanceCost>0.1</maintenanceCost>
+	<nrOfLegs>8</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>ABCescu</name>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<role>drone</role>
+	<DISCRIMINANT>FIRE ANT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Aurel</name>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>IGUANA</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>0.5</maintenanceCost>
+	<nrOfLegs>6</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Ursulet-Pufos-Roz</name>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<jawsLength>2</jawsLength>
+	<DISCRIMINANT>STAG BEETLE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.8</dangerPerc>
+	<maintenanceCost>3.0</maintenanceCost>
+	<nrOfLegs>0</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Grigore</name>
+	<avgSwimDepth>30</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<biteWidth>25.217087</biteWidth>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>2.0</maintenanceCost>
+	<nrOfLegs>2</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Paiut</name>
+	<migrates>true</migrates>
+	<avgFlightAltitude>300</avgFlightAltitude>
+	<color>java.awt.Color[r=0,g=255,b=0]</color>
+	<DISCRIMINANT>DUCK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<dangerPerc>0.1</dangerPerc>
+	<maintenanceCost>1.15</maintenanceCost>
+	<nrOfLegs>4</nrOfLegs>
+	<takenCareOf>false</takenCareOf>
+	<name>Tobisoare</name>
+	<normalBodyTemp>37.0</normalBodyTemp>
+	<percBodyHair>0.99</percBodyHair>
+	<shape>Gopher shape</shape>
+	<DISCRIMINANT>GOPHER</DISCRIMINANT>
+</ANIMAL>
+</content>
