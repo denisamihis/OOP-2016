@@ -1,0 +1,494 @@
+<?xml version="1.0"?><content>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Mosquito</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>2.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Mosquito</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Ant</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>Ant</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.002</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>false</laysEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.002</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>false</laysEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>9.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Gekko</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Gekko</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Hyena</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>38.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Hyena</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Mockingjay</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>100</avgFlightAltitude>
+	<DISCRIMINANT>Mockingjay</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Hyena</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>38.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Hyena</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Whale</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>1000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Whale</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Mosquito</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>2.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Mosquito</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>9.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Seaturtle</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Seaturtle</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Hyena</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>38.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Hyena</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Whale</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>1000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Whale</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>200</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.002</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>false</laysEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>200</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Whale</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>1000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Whale</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>9.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Whale</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>1000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Whale</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Mockingjay</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>100</avgFlightAltitude>
+	<DISCRIMINANT>Mockingjay</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>9.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Woodpecker</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>50</avgFlightAltitude>
+	<DISCRIMINANT>Woodpecker</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Stork</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>50</avgFlightAltitude>
+	<DISCRIMINANT>Stork</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.002</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>false</laysEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Snake</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>0.002</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>false</laysEggs>
+	<DISCRIMINANT>Snake</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Gekko</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<DISCRIMINANT>Gekko</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Whale</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>1000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Whale</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangerPerc>9.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2000</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Mosquito</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>2.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Mosquito</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Mockingjay</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>100</avgFlightAltitude>
+	<DISCRIMINANT>Mockingjay</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Mosquito</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>2.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Mosquito</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Deer</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>100.0</percBodyHair>
+	<DISCRIMINANT>Deer</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>6</nrOfLegs>
+	<name>Mosquito</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>2.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Mosquito</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Kangaroo</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>40.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Kangaroo</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>2</nrOfLegs>
+	<name>Mockingjay</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>true</migrates>
+	<avgFlightAltitude>100</avgFlightAltitude>
+	<DISCRIMINANT>Mockingjay</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>4</nrOfLegs>
+	<name>Hyena</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>38.0</normalBodyTemp>
+	<percBodyHair>80.0</percBodyHair>
+	<DISCRIMINANT>Hyena</DISCRIMINANT>
+</ANIMAL>
+ <ANIMAL>
+ 	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>3.0</maintenanceCost>
+	<dangerPerc>1.0E-4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>200</avgSwimDepth>
+	<waterType>Saltwater</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+ </content>
