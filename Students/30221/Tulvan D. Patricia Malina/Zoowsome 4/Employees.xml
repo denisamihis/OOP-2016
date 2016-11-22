@@ -1,0 +1,162 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Max</name>
+	<id>7918464225749697774</id>
+	<salary>10492</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bob</name>
+	<id>4734674559421684547</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Oliver</name>
+	<id>2201463869659571325</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Andy</name>
+	<id>810200240412019771</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bob</name>
+	<id>3885515355222127303</id>
+	<salary>14854</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ted</name>
+	<id>4081308939439283622</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ian</name>
+	<id>3769367173000718841</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.109292454991886</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Alex</name>
+	<id>5714886881555193623</id>
+	<salary>7711</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Andrew</name>
+	<id>4702552158071675978</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.133535456809968</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dean</name>
+	<id>908548679352503274</id>
+	<salary>11105</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Ted</name>
+	<id>279849033270024152</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Monica</name>
+	<id>803491251853458568</id>
+	<salary>14287</salary>
+	<isDead>false</isDead>
+	<workingHours>8.503640099659656</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Stefan</name>
+	<id>2575971255376728927</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Bob</name>
+	<id>5649724709077693967</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.402328042003228</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Roger</name>
+	<id>8818805541363436610</id>
+	<salary>11314</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Andrew</name>
+	<id>4148523675731621190</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Oliver</name>
+	<id>1253666364311535171</id>
+	<salary>10907</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Joey</name>
+	<id>5056199719408324600</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Roger</name>
+	<id>3191082098396512502</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>9.425961242635301</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Mike</name>
+	<id>220396942010166743</id>
+	<salary>7500</salary>
+	<isDead>false</isDead>
+	<workingHours>9.172417440950909</workingHours>
+	<DISCRIMINANT>CARETAKER</DISCRIMINANT>
+</EMPLOYEE>
+</content>
