@@ -28,11 +28,14 @@ public class Butterfly extends Insect {
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
+		AnimalRepository.createNode(eventWriter,"beautiful",String.valueOf(getBeautiful()));
 		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT,services.factories.animalFactory.Constants.Animals.Insects.Butterfly);
 	}
 	public void decodeFromXml(Element element){
 		setBeautiful(Boolean.valueOf(element.getElementsByTagName("beautiful").item(0).getTextContent()));
 	}
+	
+	
 
 
 }

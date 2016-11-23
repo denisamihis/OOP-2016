@@ -4,8 +4,6 @@ import models.animlas.Animal;
 import models.animlas.Crab;
 import models.animlas.Seal;
 import models.animlas.Solmon;
-import services.factories.animalFactory.Constants.Animals;
-import services.factories.animalFactory.Constants.Animals.Aquatics;
 
 public class AquaticFactory extends SpeciesFactory {
 	@Override

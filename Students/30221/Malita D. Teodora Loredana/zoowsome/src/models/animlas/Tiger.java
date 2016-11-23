@@ -21,6 +21,7 @@ public class Tiger extends Mammal{
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
+		AnimalRepository.createNode(eventWriter,"race",String.valueOf(getRace()));
 		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT,services.factories.animalFactory.Constants.Animals.Mammals.Tiger);
 	}
 	public String getRace()

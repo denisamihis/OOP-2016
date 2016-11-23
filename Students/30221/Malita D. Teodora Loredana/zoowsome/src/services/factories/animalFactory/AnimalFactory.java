@@ -1,7 +1,5 @@
 package services.factories.animalFactory;
 
-import services.factories.animalFactory.Constants.Species;
-
 public class AnimalFactory {
 	public SpeciesFactory getSpeciesFactory(String type) throws InvalidSpeciesException {
 		if (Constants.Species.Mammals.equals(type)) {

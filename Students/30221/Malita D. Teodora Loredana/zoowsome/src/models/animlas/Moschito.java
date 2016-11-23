@@ -28,6 +28,7 @@ public class Moschito extends Insect {
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
+		AnimalRepository.createNode(eventWriter,"bites",String.valueOf(getBites()));
 		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT,services.factories.animalFactory.Constants.Animals.Insects.Moschito);
 	}
 	public void decodeFromXml(Element element){
