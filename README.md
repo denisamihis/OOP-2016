@@ -63,6 +63,8 @@
 
 # Available projects
 
+Fill [this sheet](https://docs.google.com/spreadsheets/d/1kLs0bxZtmmKlci86qaGm0fAKHTAyOOYWEpYLFQjNXtw/edit?usp=sharing) with your chosen project!
+
 ###Java:
 
 ####Games:
