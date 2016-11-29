@@ -29,27 +29,9 @@ public static void main(String[] args) throws Exception {
 	EmployeeRepository database2= new EmployeeRepository();
 	
 	
-/*
-		{
-			
-	
-	/*	if(c.isDead()==false && a2.isTakenCareOf()==false){
-		String result = c.takeCareOf(a2);
-		if(result.equals(Constants.Employee.Caretaker.TCO_KILLED)){
-		//declare the caretaker dead
-			c.setDead(true);
-		}
-		else if(result.equals(Constants.Employee.Caretaker.TCO_NO_TIME)){
-		//skip to the next animal, try to take care of that
-		}
-		else {
-		a2.setTakenCareOf(true);
-		}
-		}
-		}*/	
-		}
+
 	}
-	
+}
 	
 
 	
