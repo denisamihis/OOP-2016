@@ -1,0 +1,82 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Charlie</name>
+	<id>2160558171545971926</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Logan</name>
+	<id>4571017216715018580</id>
+	<salary>6850</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Connor</name>
+	<id>4610819174026156728</id>
+	<salary>7573</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Charlie</name>
+	<id>8640300887000215273</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Connor</name>
+	<id>8138411474298310004</id>
+	<salary>9485</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Charlie</name>
+	<id>2983564973020201307</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dexter</name>
+	<id>6526718234065959893</id>
+	<salary>8596</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Thomas</name>
+	<id>4513527652081054408</id>
+	<salary>6247</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Seth</name>
+	<id>4276456889721564915</id>
+	<salary>5555</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Joseph</name>
+	<id>2328928629704236608</id>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.0</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+</content>
