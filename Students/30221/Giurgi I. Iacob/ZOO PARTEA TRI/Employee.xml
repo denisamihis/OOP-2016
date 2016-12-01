@@ -1,0 +1,152 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Muresan Calin</name>
+	<ID>7328617927019</ID>
+	<salary>1990.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>VISOVAN Diana</name>
+	<ID>9452154246272</ID>
+	<salary>1880.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cozma Gica</name>
+	<ID>5523553323195</ID>
+	<salary>1890.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gavrea Dora</name>
+	<ID>4392657385303</ID>
+	<salary>1970.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Sova George</name>
+	<ID>8731082559331</ID>
+	<salary>1850.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Seras George</name>
+	<ID>6300475317483</ID>
+	<salary>1850.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dumitrascu Catalin</name>
+	<ID>7451019908156</ID>
+	<salary>1900.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>VISOVAN Mihai</name>
+	<ID>3341917626829</ID>
+	<salary>1850.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Seras Andrei</name>
+	<ID>8950635581545</ID>
+	<salary>1960.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Blidar Hanz</name>
+	<ID>8870849215512</ID>
+	<salary>1970.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Haralambie Justin</name>
+	<ID>1547081792124</ID>
+	<salary>1930.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gorun Calin</name>
+	<ID>4847073868398</ID>
+	<salary>1910.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dodo Hanz</name>
+	<ID>2839070031813</ID>
+	<salary>1880.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Haralambie Mihai</name>
+	<ID>1818700873599</ID>
+	<salary>1850.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Blidar Dora</name>
+	<ID>6081955443333</ID>
+	<salary>1870.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Gavrea George</name>
+	<ID>6188156076864</ID>
+	<salary>1960.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Seras Andreea</name>
+	<ID>1130338948877</ID>
+	<salary>1880.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dumitrascu Calin</name>
+	<ID>8867800867049</ID>
+	<salary>1900.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Dumitrascu Diana</name>
+	<ID>7887205026765</ID>
+	<salary>1900.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Crisan Calin</name>
+	<ID>4025243930274</ID>
+	<salary>1970.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Grad Cristina</name>
+	<ID>2244762199371</ID>
+	<salary>1910.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Blidar Mihai</name>
+	<ID>1625401137972</ID>
+	<salary>1940.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Cozma Andrei</name>
+	<ID>2140519296333</ID>
+	<salary>1920.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Haralambie Andreea</name>
+	<ID>4342174855320</ID>
+	<salary>1890.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Giurgi Dora</name>
+	<ID>6208835303629</ID>
+	<salary>1960.0</salary>
+	<isDead>false</isDead>
+</EMPLOYEE>
+</content>
