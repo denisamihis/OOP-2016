@@ -1,5 +1,14 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import services.factories.Constants;
+
 public class Stingray extends Aquatic{
 	private int stingerLength;
 	public Stingray()
@@ -20,5 +29,16 @@ public class Stingray extends Aquatic{
 	public void setStingerLength(int stingerLength)
 	{
 		this.stingerLength = stingerLength;
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"stingerLength", String.valueOf(this.stingerLength));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Aquatics.Stingray);
+	}
+	public void decodeFromXML(Element element) 
+	{
+		super.decodeFromXML(element);
+		setStingerLength(Integer.valueOf(element.getElementsByTagName("stingerLength").item(0).getTextContent()));
 	}
 }

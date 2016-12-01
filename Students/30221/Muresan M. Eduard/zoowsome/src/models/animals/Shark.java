@@ -1,6 +1,15 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
 import java.util.Calendar;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import services.factories.Constants;
 
 public class Shark extends Aquatic{
 	private float biteWidth;
@@ -31,5 +40,16 @@ public class Shark extends Aquatic{
 	public void setBiteWidth(double biteWidth)
 	{
 		this.biteWidth = (float)biteWidth;
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"biteWidth", String.valueOf(this.biteWidth));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Aquatics.Shark);
+	}
+	public void decodeFromXML(Element element) 
+	{
+		super.decodeFromXML(element);
+		setBiteWidth(Float.valueOf(element.getElementsByTagName("biteWidth").item(0).getTextContent()));
 	}
 }

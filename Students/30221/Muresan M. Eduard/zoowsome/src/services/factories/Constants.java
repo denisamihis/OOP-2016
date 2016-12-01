@@ -1,6 +1,11 @@
 package services.factories;
 
 public final class Constants {
+	public static final class XML_TAGS{
+		public static final String DISCRIMINANT = "DISCRIMINANT";
+		public static final String ANIMAL = "ANIMAL";
+		public static final String EMPLOYEE = "EMPLOYEE";
+	}
 	public static final class Employees{
 		public static final String Caretaker = "Caretaker";
 		public static final class Caretakers

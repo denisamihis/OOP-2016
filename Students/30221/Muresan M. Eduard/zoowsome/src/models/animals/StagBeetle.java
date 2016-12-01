@@ -1,5 +1,14 @@
 package models.animals;
 
+import static repositories.AnimalRepository.createNode;
+
+import javax.xml.stream.XMLEventWriter;
+import javax.xml.stream.XMLStreamException;
+
+import org.w3c.dom.Element;
+
+import services.factories.Constants;
+
 public class StagBeetle extends Insect{
 	private int jawsLength;
 	public StagBeetle()
@@ -20,5 +29,16 @@ public class StagBeetle extends Insect{
 	public void setJawsLength(int jawsLength)
 	{
 		this.jawsLength = jawsLength;
+	}
+	public void encodeToXML(XMLEventWriter eventWriter) throws XMLStreamException
+	{
+		super.encodeToXML(eventWriter);
+		createNode(eventWriter,"jawsLength", String.valueOf(this.jawsLength));
+		createNode(eventWriter, Constants.XML_TAGS.DISCRIMINANT, Constants.Animals.Insects.StagBeetle);
+	}
+	public void decodeFromXML(Element element) 
+	{
+		super.decodeFromXML(element);
+		setJawsLength(Integer.valueOf(element.getElementsByTagName("jawsLength").item(0).getTextContent()));
 	}
 }
