@@ -1,0 +1,30 @@
+<?xml version="1.0"?><content>
+<EMPLOYEE>
+	<name>Joseph</name>
+	<id>7205137950924</id>
+	<salary>1</salary>
+	<isDead>false</isDead>
+	<workingHours>1.0</workingHours>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Great Gatsby</name>
+	<id>1165990840399</id>
+	<salary>125.6</salary>
+	<isDead>false</isDead>
+	<workingHours>2.0</workingHours>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Flinstone</name>
+	<id>382750592800</id>
+	<salary>145.21</salary>
+	<isDead>true</isDead>
+	<workingHours>5.0</workingHours>
+</EMPLOYEE>
+<EMPLOYEE>
+	<name>Kjelld Yorrick Boomgaard</name>
+	<id>2143342222598</id>
+	<salary>1450.21</salary>
+	<isDead>true</isDead>
+	<workingHours>10.0</workingHours>
+</EMPLOYEE>
+</content>
