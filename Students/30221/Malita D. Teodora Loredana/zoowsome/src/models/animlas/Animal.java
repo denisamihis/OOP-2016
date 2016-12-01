@@ -1,36 +1,25 @@
 package models.animlas;
 import java.util.Random;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.stream.XMLEventWriter;
 import javax.xml.stream.XMLStreamException;
 
-import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
-
-
+import models.interfaces.XML_Parsable;
 import repositories.AnimalRepository;
 
-public abstract class Animal implements Killer {
+public abstract class Animal implements Killer, XML_Parsable {
 	protected String name;
 	protected int nrOfLegs;
 	protected double maintenanceCost;
 	protected double dangPerc;
 	protected boolean takenCareOf;
-	public void encodeToXml (XMLEventWriter eventWriter) throws XMLStreamExceptionMLStreamException, XMLStreamException {
-		try {
-			AnimalRepository.createNode(eventWriter,"nrOfLegs",String.valueOf(this.nrOfLegs));
-			AnimalRepository.createNode(eventWriter,"name",String.valueOf(this.name));
-			AnimalRepository.createNode(eventWriter,"maintenanceCost",String.valueOf(this.maintenanceCost));
-			AnimalRepository.createNode(eventWriter,"dangPerc",String.valueOf(this.maintenanceCost));
-			AnimalRepository.createNode(eventWriter,"takenCareOf",String.valueOf(this.takenCareOf));
-		} catch (XMLStreamException e) {
-			e.printStackTrace();
-		}
+	public void encodeToXml (XMLEventWriter eventWriter) throws XMLStreamException {
+		AnimalRepository.createNode(eventWriter,"nrOfLegs",String.valueOf(this.nrOfLegs));
+		AnimalRepository.createNode(eventWriter,"name",String.valueOf(this.name));
+		AnimalRepository.createNode(eventWriter,"maintenanceCost",String.valueOf(this.maintenanceCost));
+		AnimalRepository.createNode(eventWriter,"dangPerc",String.valueOf(this.maintenanceCost));
+		AnimalRepository.createNode(eventWriter,"takenCareOf",String.valueOf(this.takenCareOf));
 	}
 	public void decodeFromXml(Element element){
 		setNrOfLegs(Integer.valueOf(element.getElementsByTagName("nrOfLegs").item(0).getTextContent()));

@@ -5,7 +5,6 @@ import javax.xml.stream.XMLStreamException;
 
 import org.w3c.dom.Element;
 
-import models.animlas.Aquatic.wT;
 import repositories.AnimalRepository;
 
 public abstract class Bird extends Animal {
@@ -17,11 +16,7 @@ public abstract class Bird extends Animal {
 		this.altitude = altitude;
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
-		try {
-			super.encodeToXml(eventWriter);
-		} catch (XMLStreamExceptionMLStreamException e) {
-			e.printStackTrace();
-		}
+		super.encodeToXml(eventWriter);
 		AnimalRepository.createNode(eventWriter,"migrates",String.valueOf(getIfMigrates()));
 		AnimalRepository.createNode(eventWriter, "altitude", String.valueOf(getAltitude()));
 	}

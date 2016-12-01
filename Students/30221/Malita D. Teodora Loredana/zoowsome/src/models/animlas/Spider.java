@@ -28,6 +28,7 @@ public class Spider extends Insect {
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
+		AnimalRepository.createNode(eventWriter,"beautiful",String.valueOf(getBeautiful()));
 		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT,services.factories.animalFactory.Constants.Animals.Insects.Spider);
 	}
 	public void decodeFromXml(Element element){

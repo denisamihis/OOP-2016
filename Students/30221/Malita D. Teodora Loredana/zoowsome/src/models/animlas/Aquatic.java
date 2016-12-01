@@ -1,9 +1,5 @@
 package models.animlas;
-import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.w3c.dom.Text;
 import javax.xml.stream.XMLEventWriter;
 import javax.xml.stream.XMLStreamException;
 
@@ -20,11 +16,7 @@ public abstract class Aquatic extends Animal{
 		this.waterType=waterType;	
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
-		try {
-			super.encodeToXml(eventWriter);
-		} catch (XMLStreamExceptionMLStreamException e) {
-			e.printStackTrace();
-		}
+		super.encodeToXml(eventWriter);
 		AnimalRepository.createNode(eventWriter,"avgSwimDepth",String.valueOf(getDepth()));
 		AnimalRepository.createNode(eventWriter, "waterType", String.valueOf(getWaterType()));
 	}

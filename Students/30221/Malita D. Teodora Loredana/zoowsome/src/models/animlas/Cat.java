@@ -5,7 +5,6 @@ import javax.xml.stream.XMLStreamException;
 
 import org.w3c.dom.Element;
 
-import models.animlas.Aquatic.wT;
 import repositories.AnimalRepository;
 import services.factories.employeeFactory.Constants;
 
@@ -22,10 +21,11 @@ public class Cat extends Mammal {
 	}
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
+		AnimalRepository.createNode(eventWriter,"race",String.valueOf(getRace()));
 		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT,services.factories.animalFactory.Constants.Animals.Mammals.Cat);
 	}
 	public void decodeFromXml(Element element){
-		setRace(String.valueOf(element.getElementsByTagName("race").item(0).getTextContent()));
+		setRace(element.getElementsByTagName("race").item(0).getTextContent());
 	}
 	public String getRace()
 	{

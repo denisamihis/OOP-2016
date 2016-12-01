@@ -158,14 +158,14 @@ public class MainController {
 		{
 			e.printStackTrace();
 		}
-		/*try //da o exceptie pe care nu stiu sa o rezolv 
+		try //da o exceptie pe care nu stiu sa o rezolv 
 		{
 			zooo = aR.load();
 		} 
 		catch (ParserConfigurationException | SAXException | IOException e) 
 		{
 			e.printStackTrace();
-		}*/
+		}
 	}
 		
 

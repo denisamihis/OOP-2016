@@ -1,6 +1,5 @@
 package services.factories.animalFactory;
 
-import models.animlas.Animal;
 import models.animlas.Butterfly;
 import models.animlas.Insect;
 import models.animlas.Moschito;

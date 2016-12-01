@@ -7,11 +7,10 @@ import javax.xml.stream.XMLStreamException;
 
 import org.w3c.dom.Element;
 
-import models.animlas.XMLStreamExceptionMLStreamException;
-import repositories.AnimalRepository;
+import models.interfaces.XML_Parsable;
 import repositories.EmployeeRepository;
 
-public abstract class Employee {
+public abstract class Employee implements XML_Parsable {
 	protected String name;
 	protected BigDecimal salary;
 	protected boolean isDead;
@@ -22,7 +21,7 @@ public abstract class Employee {
 		this.id=id;
 		isDead= false;
 	}
-	public void encodeToXml (XMLEventWriter eventWriter) throws XMLStreamExceptionMLStreamException, XMLStreamException {
+	public void encodeToXml (XMLEventWriter eventWriter) throws XMLStreamException {
 		try {
 			EmployeeRepository.createNode(eventWriter,"name",String.valueOf(this.name));
 			EmployeeRepository.createNode(eventWriter,"salary",String.valueOf(this.salary));
