@@ -4,27 +4,70 @@
 	<name>Unknown</name>
 	<maintenanceCost>5.6</maintenanceCost>
 	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-7</avgSwimDepth>
-	<waterType>freshWater</waterType>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-13</avgSwimDepth>
+	<waterType>saltWater</waterType>
 	<DISCRIMINANT>CRAB</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
+	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>7.5</maintenanceCost>
-	<dangPerc>7.5</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-20</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SEAL</DISCRIMINANT>
+	<maintenanceCost>8.0</maintenanceCost>
+	<dangPerc>8.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.7</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>CAT</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangPerc>1.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>true</fly>
+	<isDangerous>false</isDangerous>
+	<bites>false</bites>
+	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangPerc>4.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CHAMAMELEON</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>6.9</maintenanceCost>
 	<dangPerc>6.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangPerc>2.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>true</fly>
+	<isDangerous>false</isDangerous>
+	<beautiful>true</beautiful>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.9</maintenanceCost>
+	<dangPerc>6.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
 	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
@@ -34,17 +77,28 @@
 	<name>Unknown</name>
 	<maintenanceCost>4.9</maintenanceCost>
 	<dangPerc>4.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<migrates>false</migrates>
 	<altitude>1800.0</altitude>
 	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>8.0</maintenanceCost>
+	<dangPerc>8.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.7</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>CAT</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>2</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>2.4</maintenanceCost>
 	<dangPerc>2.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<migrates>false</migrates>
 	<altitude>1800.0</altitude>
 	<DISCRIMINANT>DOVE</DISCRIMINANT>
@@ -54,18 +108,7 @@
 	<name>Unknown</name>
 	<maintenanceCost>3.05</maintenanceCost>
 	<dangPerc>3.05</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>false</fly>
-	<isDangerous>true</isDangerous>
-	<beautiful>false</beautiful>
-	<DISCRIMINANT>SPIDER</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.05</maintenanceCost>
-	<dangPerc>3.05</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<fly>false</fly>
 	<isDangerous>true</isDangerous>
 	<beautiful>false</beautiful>
@@ -74,19 +117,60 @@
 <ANIMAL>
 	<nrOfLegs>2</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>5.6</maintenanceCost>
-	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>2.4</maintenanceCost>
+	<dangPerc>2.4</dangPerc>
+	<takenCareOf>false</takenCareOf>
 	<migrates>false</migrates>
 	<altitude>1800.0</altitude>
-	<DISCRIMINANT>EAGLE</DISCRIMINANT>
+	<DISCRIMINANT>DOVE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>2.1</maintenanceCost>
+	<dangPerc>2.1</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>SNAKE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>8.0</maintenanceCost>
+	<dangPerc>8.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.7</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>CAT</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>6.9</maintenanceCost>
 	<dangPerc>6.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
 	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
@@ -96,29 +180,203 @@
 	<name>Unknown</name>
 	<maintenanceCost>4.0</maintenanceCost>
 	<dangPerc>4.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
 	<DISCRIMINANT>CHAMAMELEON</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
+	<nrOfLegs>8</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>3.4</maintenanceCost>
-	<dangPerc>3.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-13</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SOLMON</DISCRIMINANT>
+	<maintenanceCost>3.05</maintenanceCost>
+	<dangPerc>3.05</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>false</fly>
+	<isDangerous>true</isDangerous>
+	<beautiful>false</beautiful>
+	<DISCRIMINANT>SPIDER</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>8</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>5.6</maintenanceCost>
 	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<avgSwimDepth>-7</avgSwimDepth>
 	<waterType>freshWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-7</avgSwimDepth>
+	<waterType>freshWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-7</avgSwimDepth>
+	<waterType>freshWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.9</maintenanceCost>
+	<dangPerc>6.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangPerc>6.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.2</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-7</avgSwimDepth>
+	<waterType>freshWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-13</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>1.0</maintenanceCost>
+	<dangPerc>1.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>true</fly>
+	<isDangerous>false</isDangerous>
+	<bites>false</bites>
+	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-13</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>4.9</maintenanceCost>
+	<dangPerc>4.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<altitude>1800.0</altitude>
+	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>7.5</maintenanceCost>
+	<dangPerc>7.5</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-20</avgSwimDepth>
+	<waterType>saltWater</waterType>
+	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangPerc>4.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CHAMAMELEON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangPerc>6.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.2</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>4.9</maintenanceCost>
+	<dangPerc>4.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<altitude>1800.0</altitude>
+	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-13</avgSwimDepth>
+	<waterType>saltWater</waterType>
 	<DISCRIMINANT>CRAB</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
@@ -126,27 +384,90 @@
 	<name>Unknown</name>
 	<maintenanceCost>6.9</maintenanceCost>
 	<dangPerc>6.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
 	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangPerc>6.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.2</bodyTemp>
+	<isDangerous>false</isDangerous>
+	<race>Unknown</race>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>2</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>7.5</maintenanceCost>
 	<dangPerc>7.5</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<avgSwimDepth>-20</avgSwimDepth>
 	<waterType>saltWater</waterType>
 	<DISCRIMINANT>SEAL</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>4.0</maintenanceCost>
+	<dangPerc>4.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CHAMAMELEON</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>6.9</maintenanceCost>
+	<dangPerc>6.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangPerc>5.6</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>-7</avgSwimDepth>
+	<waterType>freshWater</waterType>
+	<DISCRIMINANT>CRAB</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>2.0</maintenanceCost>
+	<dangPerc>2.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>true</fly>
+	<isDangerous>false</isDangerous>
+	<beautiful>true</beautiful>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>8</nrOfLegs>
+	<name>Unknown</name>
+	<maintenanceCost>3.05</maintenanceCost>
+	<dangPerc>3.05</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<fly>false</fly>
+	<isDangerous>true</isDangerous>
+	<beautiful>false</beautiful>
+	<DISCRIMINANT>SPIDER</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>2</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>5.6</maintenanceCost>
 	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<migrates>false</migrates>
 	<altitude>1800.0</altitude>
 	<DISCRIMINANT>EAGLE</DISCRIMINANT>
@@ -154,133 +475,39 @@
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>8.0</maintenanceCost>
-	<dangPerc>8.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<bodyTemp>39.7</bodyTemp>
-	<isDangerous>false</isDangerous>
-	<race>Unknown</race>
-	<DISCRIMINANT>CAT</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>4.9</maintenanceCost>
-	<dangPerc>4.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<migrates>false</migrates>
-	<altitude>1800.0</altitude>
-	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.1</maintenanceCost>
-	<dangPerc>2.1</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<maintenanceCost>6.9</maintenanceCost>
+	<dangPerc>6.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
-	<DISCRIMINANT>SNAKE</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.1</maintenanceCost>
-	<dangPerc>2.1</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<laysEggs>true</laysEggs>
-	<isUgly>true</isUgly>
-	<DISCRIMINANT>SNAKE</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>4.9</maintenanceCost>
-	<dangPerc>4.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<migrates>false</migrates>
-	<altitude>1800.0</altitude>
-	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>4.9</maintenanceCost>
-	<dangPerc>4.9</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<migrates>false</migrates>
-	<altitude>1800.0</altitude>
-	<DISCRIMINANT>FLAMINGO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.4</maintenanceCost>
-	<dangPerc>3.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-13</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SOLMON</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>5.6</maintenanceCost>
-	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-7</avgSwimDepth>
-	<waterType>freshWater</waterType>
-	<DISCRIMINANT>CRAB</DISCRIMINANT>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>1.0</maintenanceCost>
-	<dangPerc>1.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<bites>false</bites>
-	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
+	<maintenanceCost>6.9</maintenanceCost>
+	<dangPerc>6.9</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<laysEggs>true</laysEggs>
+	<isUgly>true</isUgly>
+	<DISCRIMINANT>CROCODILE</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>2</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>2.4</maintenanceCost>
 	<dangPerc>2.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<migrates>false</migrates>
 	<altitude>1800.0</altitude>
 	<DISCRIMINANT>DOVE</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.0</maintenanceCost>
-	<dangPerc>2.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<beautiful>true</beautiful>
-	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>1.0</maintenanceCost>
-	<dangPerc>1.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<bites>false</bites>
-	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>0</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>2.1</maintenanceCost>
 	<dangPerc>2.1</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<laysEggs>true</laysEggs>
 	<isUgly>true</isUgly>
 	<DISCRIMINANT>SNAKE</DISCRIMINANT>
@@ -288,234 +515,34 @@
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
-	<maintenanceCost>8.0</maintenanceCost>
-	<dangPerc>8.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<bodyTemp>39.7</bodyTemp>
+	<maintenanceCost>6.0</maintenanceCost>
+	<dangPerc>6.0</dangPerc>
+	<takenCareOf>false</takenCareOf>
+	<bodyTemp>39.2</bodyTemp>
 	<isDangerous>false</isDangerous>
 	<race>Unknown</race>
-	<DISCRIMINANT>CAT</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>8.0</maintenanceCost>
-	<dangPerc>8.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<bodyTemp>39.7</bodyTemp>
-	<isDangerous>false</isDangerous>
-	<race>Unknown</race>
-	<DISCRIMINANT>CAT</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>1.0</maintenanceCost>
-	<dangPerc>1.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<bites>false</bites>
-	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.4</maintenanceCost>
-	<dangPerc>3.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-13</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SOLMON</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>7.5</maintenanceCost>
-	<dangPerc>7.5</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-20</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SEAL</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.4</maintenanceCost>
-	<dangPerc>2.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<migrates>false</migrates>
-	<altitude>1800.0</altitude>
-	<DISCRIMINANT>DOVE</DISCRIMINANT>
+	<DISCRIMINANT>DOG</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>4.7</maintenanceCost>
 	<dangPerc>4.7</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<bodyTemp>37.5</bodyTemp>
 	<isDangerous>false</isDangerous>
 	<race>Unknown</race>
 	<DISCRIMINANT>TIGER</DISCRIMINANT>
 </ANIMAL>
 <ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.4</maintenanceCost>
-	<dangPerc>3.4</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-13</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SOLMON</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.0</maintenanceCost>
-	<dangPerc>2.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<beautiful>true</beautiful>
-	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.1</maintenanceCost>
-	<dangPerc>2.1</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<laysEggs>true</laysEggs>
-	<isUgly>true</isUgly>
-	<DISCRIMINANT>SNAKE</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>5.6</maintenanceCost>
-	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-7</avgSwimDepth>
-	<waterType>freshWater</waterType>
-	<DISCRIMINANT>CRAB</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>2</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>7.5</maintenanceCost>
-	<dangPerc>7.5</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-20</avgSwimDepth>
-	<waterType>saltWater</waterType>
-	<DISCRIMINANT>SEAL</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>6.0</maintenanceCost>
-	<dangPerc>6.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<bodyTemp>39.2</bodyTemp>
-	<isDangerous>false</isDangerous>
-	<race>Unknown</race>
-	<DISCRIMINANT>DOG</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>1.0</maintenanceCost>
-	<dangPerc>1.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<bites>false</bites>
-	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.0</maintenanceCost>
-	<dangPerc>2.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<beautiful>true</beautiful>
-	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>1.0</maintenanceCost>
-	<dangPerc>1.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>true</fly>
-	<isDangerous>false</isDangerous>
-	<bites>false</bites>
-	<DISCRIMINANT>MOSCHITO</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.05</maintenanceCost>
-	<dangPerc>3.05</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>false</fly>
-	<isDangerous>true</isDangerous>
-	<beautiful>false</beautiful>
-	<DISCRIMINANT>SPIDER</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>5.6</maintenanceCost>
-	<dangPerc>5.6</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<avgSwimDepth>-7</avgSwimDepth>
-	<waterType>freshWater</waterType>
-	<DISCRIMINANT>CRAB</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>4</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>6.0</maintenanceCost>
-	<dangPerc>6.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<bodyTemp>39.2</bodyTemp>
-	<isDangerous>false</isDangerous>
-	<race>Unknown</race>
-	<DISCRIMINANT>DOG</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>8</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>3.05</maintenanceCost>
-	<dangPerc>3.05</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<fly>false</fly>
-	<isDangerous>true</isDangerous>
-	<beautiful>false</beautiful>
-	<DISCRIMINANT>SPIDER</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
 	<nrOfLegs>4</nrOfLegs>
 	<name>Unknown</name>
 	<maintenanceCost>8.0</maintenanceCost>
 	<dangPerc>8.0</dangPerc>
-	<takenCareOf>true</takenCareOf>
+	<takenCareOf>false</takenCareOf>
 	<bodyTemp>39.7</bodyTemp>
 	<isDangerous>false</isDangerous>
 	<race>Unknown</race>
 	<DISCRIMINANT>CAT</DISCRIMINANT>
-</ANIMAL>
-<ANIMAL>
-	<nrOfLegs>0</nrOfLegs>
-	<name>Unknown</name>
-	<maintenanceCost>2.1</maintenanceCost>
-	<dangPerc>2.1</dangPerc>
-	<takenCareOf>true</takenCareOf>
-	<laysEggs>true</laysEggs>
-	<isUgly>true</isUgly>
-	<DISCRIMINANT>SNAKE</DISCRIMINANT>
 </ANIMAL>
 </content>
