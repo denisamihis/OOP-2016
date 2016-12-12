@@ -8,6 +8,7 @@ import javax.xml.stream.XMLStreamException;
 import org.w3c.dom.Element;
 
 import models.animlas.Animal;
+import repositories.AnimalRepository;
 import repositories.EmployeeRepository;
 import services.factories.employeeFactory.Constants;
 
@@ -40,6 +41,8 @@ public class Caretaker extends Employee implements Caretaker_I {
 	public void encodeToXml(XMLEventWriter eventWriter) throws XMLStreamException{
 		super.encodeToXml(eventWriter);
 		EmployeeRepository.createNode(eventWriter,"workingHours",String.valueOf(getWorkingHours()));
+		AnimalRepository.createNode(eventWriter,Constants.XML_TAGS.DISCRIMINANT, Constants.Employees.Caretaker);
+		
 	}
 	public void decodeFromXml(Element element){
 		setWorkingHours(Double.valueOf(element.getElementsByTagName("workingHours").item(0).getTextContent()));

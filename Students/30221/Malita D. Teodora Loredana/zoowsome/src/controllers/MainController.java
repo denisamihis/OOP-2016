@@ -24,6 +24,7 @@ import services.factories.employeeFactory.*;
 public class MainController {
 
 	public static void main(String[] args) throws InvalidSpeciesException {
+		/*
 		AnimalFactory abstractFactory = new AnimalFactory();
 		SpeciesFactory mammalFactory = abstractFactory.getSpeciesFactory(Constants.Species.Mammals);
 		SpeciesFactory birdsFactory = abstractFactory.getSpeciesFactory(Constants.Species.Birds);
@@ -158,7 +159,7 @@ public class MainController {
 		{
 			e.printStackTrace();
 		}
-		try //da o exceptie pe care nu stiu sa o rezolv 
+		try 
 		{
 			zooo = aR.load();
 		} 
@@ -166,6 +167,13 @@ public class MainController {
 		{
 			e.printStackTrace();
 		}
+		try {
+			eR.load();
+		} catch (ParserConfigurationException | SAXException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		new MainMenuController( new MainMenuFrame( "Main Menu"), false );
 	}
 		
 
