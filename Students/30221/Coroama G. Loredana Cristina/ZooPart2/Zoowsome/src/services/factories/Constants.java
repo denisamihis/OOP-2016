@@ -1,6 +1,10 @@
 package services.factories;
 
 public final class Constants {
+	public static final class Frames {
+		public static final int HEIGHT = 500;
+		public static final int WIDTH = 700;
+	}
 public static final class Species {
 public static final String Mammal = "Mammal";
 public static final String Reptile = "Reptile";
@@ -11,6 +15,7 @@ public static final String Insect = "Insect";
 public static final class EmployeeAbstract {
 	public static final String Caretaker = "Caretaker";
 }
+
 public static final class Employee {
 	public static final class Caretaker {
 		public static final String TCO_SUCCESS = "SUCCESS";

@@ -74,10 +74,7 @@ private double setDangerPerc(Double valueOf) {
 		// TODO Auto-generated method stub
 		return dangerPerc;
 	}
-public static void main (String[] args)
-{
-	
-}
+
 public double getDangerPerc() {
 	return dangerPerc;
 }
