@@ -1,6 +1,11 @@
 package services.factories;
 
 public final class Constants {
+	public class Frames {
+
+		public static final int HEIGHT = 500;
+		public static final int WIDTH = 700;
+	}
 	public static final class EmployeeAbstract{
 		public static final String Caretaker="CARETAKER";
 	}

@@ -17,24 +17,7 @@ public class MainController {
 
 }
 
-	public static void main(String[] args) throws Exception {
-		
-
 	
-		AnimalFactory abstractFactory = new AnimalFactory();
-		SpeciesFactory speciesFactory1 = abstractFactory.getSpeciesFactory(Constants.Species.Mammal);
-		Animal a1 = speciesFactory1.getAnimal(Constants.Animal.Mammal.Cow);
-		System.out.printf("We have an animal with "+ a1.getNrOfLegs() +" legs!\n");
-	
-		/*CaretakerFactory empFactory = new CaretakerFactory();
-		EmployeeFactory employeeFactory1= empFactory.getEmployeeFactory(Constants.Employee.Caretaker);
-		Employee c1=employeeFactory1.getEmployeeAbstractFactory()*/
-	
-		ArrayList<Animal> anim1=new ArrayList<Animal>();
-		AnimalRepository database=new  AnimalRepository();
-		ArrayList<Employee> empl1= new ArrayList<Employee>();
-		EmployeeRepository database2= new EmployeeRepository();
-	}
 	
 	}
 
