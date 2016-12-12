@@ -1,0 +1,20 @@
+package javasmmr.zoowsome.services.factories;
+
+import javasmmr.zoowsome.models.animals.Animal;
+
+public class MammalFactory extends SpeciesFactory {
+
+	public Animal getAnimal(String type)
+	{
+		if(Constants.Animals.Mammals.Tiger.equals(type))
+			return new Tiger();
+		else
+			if(Constants.Animals.Mammals.Cows.equals(type))
+				return new Cow();
+			else
+				if(Constants.Animals.Mammals.Monkeys.equals(type))
+					return new Monkey();
+				else
+					throw new Exception("Invalid animal exception");
+	}
+}

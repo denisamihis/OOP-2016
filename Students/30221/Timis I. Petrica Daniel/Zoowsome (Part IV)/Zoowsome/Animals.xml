@@ -1,0 +1,102 @@
+<?xml version="1.0"?><content>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>5.5</maintenanceCost>
+	<dangerPerc>0.6</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>2500</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Shark</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>50</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>50</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Ostrich</name>
+	<maintenanceCost>2.7</maintenanceCost>
+	<dangerPerc>0.07</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<DISCRIMINANT>Ostrich</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Penguin</name>
+	<maintenanceCost>5.5</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<DISCRIMINANT>Penguin</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tiger</name>
+	<maintenanceCost>3.9</maintenanceCost>
+	<dangerPerc>0.4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>92.2</percBodyHair>
+	<DISCRIMINANT>Tiger</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tiger</name>
+	<maintenanceCost>3.9</maintenanceCost>
+	<dangerPerc>0.4</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>37.5</normalBodyTemp>
+	<percBodyHair>92.2</percBodyHair>
+	<DISCRIMINANT>Tiger</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Cockroach</name>
+	<maintenanceCost>0.2</maintenanceCost>
+	<dangerPerc>0.01</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>true</isDangerous>
+	<DISCRIMINANT>Cockroach</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>2</nrOfLegs>
+	<name>Penguin</name>
+	<maintenanceCost>5.5</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<migrates>false</migrates>
+	<avgFlightAltitude>0</avgFlightAltitude>
+	<DISCRIMINANT>Penguin</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Seahorse</name>
+	<maintenanceCost>5.6</maintenanceCost>
+	<dangerPerc>0.0</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>50</avgSwimDepth>
+	<waterType>SALTWATER</waterType>
+	<DISCRIMINANT>Seahorse</DISCRIMINANT>
+</ANIMAL>
+</content>

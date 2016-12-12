@@ -1,0 +1,10 @@
+package javasmmr.zoowsome.models.animals;
+
+public class Owl extends Bird{
+
+	public Owl(String name)
+	{
+		super.setNrOfLegs(2);
+		super.setName(name);	
+	}
+}
